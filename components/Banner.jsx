@@ -7,7 +7,7 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 
-import image1 from "../public/assets/windsolar1.jpg";
+import image1 from "../public/assets/windsolar.jpg";
 import image2 from "../public/assets/solar2.jpg";
 
 import image3 from "../public/assets/wind2.jpg";
@@ -74,13 +74,13 @@ const Trending = () => {
 
   return (
     <section className="w-full flex justify-center mt-[-5.3rem] sm:mt-[-6.9rem] 2xl:mt-[-6.7rem] relative z-0 ">
-      <div className=" w-full relative visible sm:hidden  max-w-[1600px] ">
+      <div className=" w-full relative visible sm:hidden  max-w-[1900px]  ">
         <Zoom {...zoomInProperties}>
           {data2.map((item, index) => (
             <div className="w-full flex h-[600px] justify-center">
               <div
                 key={index}
-                className="relative flex justify-center w-full h-auto object-scale-down sm:h-[430px] md:h-[500px] lg:h-[600px] xl:h-[700px] 2xl:h-[750px] 3xl:h-[840px] "
+                className="relative flex justify-center w-full h-auto object-scale-down sm:h-[430px] md:h-[500px] lg:h-[600px] xl:h-[700px] 2xl:h-[750px] 3xl:h-[840px] 4xl:h-[930px]"
               >
                 <Image
                   fill
@@ -88,7 +88,7 @@ const Trending = () => {
                   className="   "
                   alt="listing-image-slider"
                   placeholder="blur"
-                  blurDataURL="/assets/banner1.jpg"
+                  blurDataURL="../public/assets/windsolar.jpg"
                 />
               </div>
             </div>
@@ -123,21 +123,21 @@ const Trending = () => {
           </div>
         </div>
       </div>
-      <div className=" w-full hidden sm:inline-block relative max-w-[1600px] ">
+      <div className=" w-full hidden sm:inline-block relative max-w-[1900px] ">
         <Zoom {...zoomInProperties}>
           {data.map((item, index) => (
             <div key={index} className="w-full flex   justify-center">
               <div
                 key={index}
-                className="relative flex justify-center w-full   sm:h-[430px] md:h-[500px] lg:h-[600px] xl:h-[700px] 2xl:h-[750px] 3xl:h-[840px] "
+                className="relative flex justify-center w-full   sm:h-[430px] md:h-[500px] lg:h-[600px] xl:h-[700px] 2xl:h-[750px] 3xl:h-[840px] 4xl:h-[930px] bg-gray-600/90"
               >
                 <Image
                   fill
                   src={item}
-                  className="   "
+                  className="  mix-blend-overlay "
                   alt="image"
                   placeholder="blur"
-                  blurDataURL="/assets/banner1.jpg"
+                  blurDataURL="../public/assets/windsolar.jpg"
                 />
               </div>
             </div>
