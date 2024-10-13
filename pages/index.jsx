@@ -29,23 +29,26 @@ export default function Home() {
         <title>ProjectPro </title>
         <meta
           name="description"
-          content="Looking for top web development services, design solutions, digital marketing, and testing? Look no further than Nantech! Our team of experts will work with you to build your online presence and create customized solutions tailored to your business needs."
+          content="Empowering Your Investments
+Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the Future of Sustainable Development and Profitable Investments in the Western Balkan"
         />
         <meta
           name="keywords"
-          content="Web development Website design User experience (UX) User interface (UI) Mobile optimization E-commerce Content management systems (CMS) Custom solutions SEO SEM PPC advertising Social media marketing Email marketing Conversion rate optimization (CRO) A/B testing Quality assurance (QA) Testing and debugging"
+          content="Empowering Your Investments
+Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the Future of Sustainable Development and Profitable Investments in the Western Balkan"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/n.webp" />
         {/* share image */}
         <meta property="og:url" content="https://www.nantechsolution.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="nanTech Solution" />
+        <meta property="og:title" content="ProProject" />
         <meta
           property="og:description"
-          content="Looking for top web development services, design solutions, digital marketing, and testing? Look no further than Nantech! Our team of experts will work with you to build your online presence and create customized solutions tailored to your business needs."
+          content="Empowering Your Investments
+Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the Future of Sustainable Development and Profitable Investments in the Western Balkan"
         />
-        <meta property="og:image" content="/social.png" />
+        <meta property="og:image" content="/social.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -56,12 +59,13 @@ export default function Home() {
           property="twitter:url"
           content="https://www.nantechsolution.com/"
         />
-        <meta name="twitter:title" content="nanTech Solution" />
+        <meta name="twitter:title" content="ProProject" />
         <meta
           name="twitter:description"
-          content="Looking for top web development services, design solutions, digital marketing, and testing? Look no further than Nantech! Our team of experts will work with you to build your online presence and create customized solutions tailored to your business needs."
+          content="Empowering Your Investments
+Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the Future of Sustainable Development and Profitable Investments in the Western Balkan"
         />
-        <meta name="twitter:image" content="/social.png" />
+        <meta name="twitter:image" content="/social.jpg" />
       </Head>
       <main>
         {" "}
