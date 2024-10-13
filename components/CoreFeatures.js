@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import coreImg from "../public/assets/corefeature.webp";
+import coreImg from "../public/assets/erer.jpg";
 import shapeImg from "../public/assets/shape-pattern2.webp";
 const CoreFeatures = () => {
   const scrollTo = (e, id) => {

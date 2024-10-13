@@ -5,7 +5,7 @@ import { GiCheckMark, GiProgression } from "react-icons/gi";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { GiSolarPower } from "react-icons/gi";
 import Image from "next/image";
-import image1 from "../public/assets/wind2.jpg";
+import image1 from "../public/assets/solar5.jpg";
 
 import image2 from "../public/assets/hotel.jpg";
 

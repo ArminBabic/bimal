@@ -4,9 +4,9 @@ import { CgMenuRight } from "react-icons/cg";
 import { AiOutlineClose, AiOutlineMail, AiFillYoutube } from "react-icons/ai";
 import { RiLinkedinFill } from "react-icons/ri";
 import { FaFacebook, FaEnvelope } from "react-icons/fa";
-import logo from "../public/assets/cd.png";
-import logos from "../public/assets/cdzdesktop.png";
-import mobilelogo from "../public/assets/cd.png";
+import logo from "../public/assets/windlogo.png";
+import logos from "../public/assets/windlogo.png";
+import mobilelogo from "../public/assets/windlogo.png";
 import Image from "next/image";
 
 function Header() {

@@ -9,7 +9,7 @@ function Police() {
           PRIVACY POLICY
         </h1>
         <div className=" my-12 w-full ">
-          <h3 className="font-bold text-2xl pb-4">nanTech Solution</h3>
+          <h3 className="font-bold text-2xl pb-4">ProProject</h3>
 
           <div className="text-[#676a6a] flex flex-col gap-5 ">
             <p>Trg Mladih, Brcko, Bosnia and Herzegovinia</p>

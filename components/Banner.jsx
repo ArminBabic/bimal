@@ -28,8 +28,8 @@ import mobileimage5 from "../public/assets/solal.jpg";
 import mobileimage6 from "../public/assets/solar1.jpg";
 import mobileimage7 from "../public/assets/solarl.jpg";
 
-const data = [ image2, image3,image4,image5,image6,image7,image8,image9];
-const data2 = [mobileimage1, mobileimage2, mobileimage3,mobileimage4,mobileimage5,mobileimage6,mobileimage7];
+const data = [ image2,image8,image4,image5,image6,image7, image3,image9];
+const data2 = [mobileimage5,mobileimage6,mobileimage7,mobileimage4,mobileimage1, mobileimage2, mobileimage3];
 
 const scrollTo = (e, id) => {
   const element = document.getElementById(id);

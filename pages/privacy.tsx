@@ -7,7 +7,7 @@ import Police from "../components/Police";
 const Privacy = () => {
   return (
     <div className="w-full">
-      <Head>
+      {/* <Head>
         <title>nanTech Solution </title>
         <meta
           name="description"
@@ -20,12 +20,12 @@ const Privacy = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/n.webp" />
       </Head>
-
+ */}
       <div className="w-full">
         <PrivacyHeader />
 
         <Police />
-        <Footer />
+   {/*      <Footer /> */}
       </div>
     </div>
   );

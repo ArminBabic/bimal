@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillSecurityScan } from "react-icons/ai";
 import { SiDatabricks } from "react-icons/si";
 import Image from "next/image";
-import serviceImg from "../public/assets/videoposter.webp";
+import serviceImg from "../public/assets/erer.jpg";
 const OurServices = () => {
   return (
     <div id="ourservices" className="w-full flex justify-center  py-12">
@@ -69,7 +69,7 @@ const OurServices = () => {
                 </div>
                 <div className="flex flex-col gap-2">
                   <h4 className="font-bold text-[#303030] text-base lg:text-lg">
-                    Advanced Features
+                  Powerfull Strategy
                   </h4>
                   <p
                     className="text-base text-[#303030] max-w-[310px]  sm:w-[360px] md:w-[255px]
@@ -92,15 +92,13 @@ const OurServices = () => {
                 </div>
                 <div className="flex flex-col gap-2">
                   <h4 className="font-bold text-[#303030]  text-base lg:text-lg">
-                    Private Data
+                  Save Money
                   </h4>
                   <p
                     className="text-base  text-[#303030]  max-w-[310px]  sm:w-[360px] md:w-[255px]
             lg:w-[285px] xl:max-w-[305px] 3xl:w-[355px] md:text-sm md:leading-7"
                   >
-                    We take the security and privacy of your data very seriously
-                    and that keeping it safe and secure is essential to your
-                    success.
+                   Lorem ipsum dolor sit amet conse adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                   </p>
                 </div>
               </article>

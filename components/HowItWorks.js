@@ -38,7 +38,7 @@ const HowItWorks = () => {
               </div>
             </figure>
             <h4 className="font-[500] text-[#fff]  text-lg xs:text-xl">
-              Consultation
+            Make Appointment
             </h4>
             <p className="text-base text-[#fff]  opacity-75 ">
               Consultation with the client to determine their needs, goals, and
@@ -64,12 +64,12 @@ const HowItWorks = () => {
               </div>
             </figure>
             <h4 className="font-[500] text-[#fff]  text-lg xs:text-xl">
-              Planning & Design
+            Consultation
             </h4>
             <p className="text-base text-[#fff]  opacity-75 ">
-              Based on the client's requirements, the agency will create a
-              project plan and develop a design that meets their needs. This may
-              involve creating wireframes, mockups, or prototypes.
+            Consultation with the client to determine their needs, goals, and
+              budget. This may involve discussing the project scope, timeline,
+              design preferences, and any other important details.
             </p>
           </article>{" "}
           <article
@@ -90,12 +90,12 @@ const HowItWorks = () => {
               </div>
             </figure>
             <h4 className="font-[500] text-[#fff]  text-lg xs:text-xl">
-              Development & Testing
+            Installation System
             </h4>
             <p className="text-base text-[#fff]  opacity-75 ">
-              Once the design is finalized, the agency will begin developing the
-              website using modern technoligies. During this phase, the agency
-              will perform testing to ensure the website is fully functional.
+            Consultation with the client to determine their needs, goals, and
+              budget. This may involve discussing the project scope, timeline,
+              design preferences, and any other important details.
             </p>
           </article>
           <article
@@ -116,12 +116,12 @@ const HowItWorks = () => {
               </div>
             </figure>
             <h4 className="font-[500] text-[#fff]  text-lg xs:text-xl">
-              Launch & Maintenance
+            Execution Project
             </h4>
             <p className="text-base text-[#fff]  opacity-75 ">
-              After the website is fully developed and tested,we will make it
-              live for the public. The agency will also provide ongoing
-              maintenance and support to ensure the website remains up-to-date
+            Consultation with the client to determine their needs, goals, and
+              budget. This may involve discussing the project scope, timeline,
+              design preferences, and any other important details.
             </p>
           </article>
         </main>
