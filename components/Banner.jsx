@@ -119,9 +119,9 @@ const Trending = () => {
                 Empowering Your Investments
               </h1> 
               <h2 className="max-w-[331px] w-full  sm:max-w-[500px] font-[400] xs:text-[18px] text-sm  3xl:max-w-[610px] text-gray-100 leading-7 lg:leading-9 3xl:leading-[2.5rem]">
-                Look no further than our top-quality web development and services! 
+              Energy, Acquisitions, and Real Estate Projects Tailored for
                 Success.Explore the Future of Sustainable Development and
-                Profitable Investments in the Western Balkan.”
+                Profitable Investments in the Western Balkan
               </h2>
               <button
                 onClick={(e) => scrollTo(e, "contact")}
@@ -170,7 +170,7 @@ const Trending = () => {
                 {/*  Look no further than our top-quality web development and services! */}{" "}
                 Energy, Acquisitions, and Real Estate Projects Tailored for
                 Success.Explore the Future of Sustainable Development and
-                Profitable Investments in the Western Balkan.”
+                Profitable Investments in the Western Balkan
               </h2>
               <button
                 onClick={(e) => scrollTo(e, "contact")}

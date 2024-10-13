@@ -69,14 +69,14 @@ export default function Home() {
          <Banner /> 
         <Features />
         <OurServices />
-        <QualityFeatures />
+      {/*   <QualityFeatures /> */}
         {/*  <CoreFeatures /> */}
         <HowItWorks />
         {/*  <Team /> */}
       {/*   <Testimonials /> */}
-        <Contact />
+       {/*  <Contact /> */}
         {/*   <Subscribe /> */}
-        <Footer />
+    {/*     <Footer /> */}
       </main>
     </>
   );

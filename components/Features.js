@@ -61,7 +61,7 @@ const Features = () => {
 
         <div className="main">
           <ul className="cards">
-            <li className="cards_item hover:scale-105 duration-200 ease-in">
+            <li className="cards_item  duration-200 ease-in">
               <div class="card">
                 <div class="card_image">
                   <Image className="img" src={image1} alt="image" />
@@ -76,7 +76,7 @@ const Features = () => {
                 </div>
               </div>
             </li>
-            <li class="cards_item hover:scale-105 duration-200 ease-in">
+            <li class="cards_item  duration-200 ease-in">
               <div class="card">
                 <div class="card_image">
                   <Image className="img" src={image3} alt="image"/>
@@ -91,7 +91,7 @@ const Features = () => {
                 </div>
               </div>
             </li>
-            <li class="cards_item hover:scale-105 duration-200 ease-in">
+            <li class="cards_item  duration-200 ease-in">
               <div class="card">
                 <div class="card_image">
                   <Image className="img" src={image2} alt="image" />
