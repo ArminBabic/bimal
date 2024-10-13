@@ -59,12 +59,12 @@ const Features = () => {
           ))}
         </main> */}
 
-        <div class="main">
-          <ul class="cards">
-            <li class="cards_item hover:scale-105 duration-200 ease-in">
+        <div className="main">
+          <ul className="cards">
+            <li className="cards_item hover:scale-105 duration-200 ease-in">
               <div class="card">
                 <div class="card_image">
-                  <Image className="img" src={image1} />
+                  <Image className="img" src={image1} alt="image" />
                 </div>
                 <div class="card_content">
                   <h2 class="card_title">Solar Panels</h2>
@@ -79,7 +79,7 @@ const Features = () => {
             <li class="cards_item hover:scale-105 duration-200 ease-in">
               <div class="card">
                 <div class="card_image">
-                  <Image className="img" src={image3} />
+                  <Image className="img" src={image3} alt="image"/>
                 </div>
                 <div class="card_content">
                   <h2 class="card_title">Wind Turbines</h2>
@@ -94,7 +94,7 @@ const Features = () => {
             <li class="cards_item hover:scale-105 duration-200 ease-in">
               <div class="card">
                 <div class="card_image">
-                  <Image className="img" src={image2} />
+                  <Image className="img" src={image2} alt="image" />
                 </div>
                 <div class="card_content">
                   <h2 class="card_title">Real Estate Projects</h2>
@@ -102,7 +102,7 @@ const Features = () => {
                     Lorem ipsum dolor sit amet, consectet adipiscing elit, sed
                     do eiusmod tempor
                   </p>
-                  <button class="btn card_btn">Read More</button>
+                  <button className="btn card_btn">Read More</button>
                 </div>
               </div>
             </li>

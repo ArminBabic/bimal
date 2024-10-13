@@ -7,18 +7,29 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 
-import image1 from "../public/assets/windsolar.jpg";
+
+
 import image2 from "../public/assets/solar2.jpg";
 
 import image3 from "../public/assets/wind2.jpg";
+import image4 from "../public/assets/sola3.jpg";
+import image5 from "../public/assets/solar5.jpg";
+import image6 from "../public/assets/solar6.jpg";
+import image7 from "../public/assets/windsolar2.jpg";
+import image8 from "../public/assets/solar2222.jpg";
+import image9 from "../public/assets/windd.jpg";
 
-import image4 from "../public/assets/wind10.jpg";
-import image5 from "../public/assets/wind11.jpg";
+import mobileimage1 from "../public/assets/wind10.jpg";
+import mobileimage2 from "../public/assets/wind11.jpg";
 
-import image6 from "../public/assets/wind12.jpg";
+import mobileimage3 from "../public/assets/wind12.jpg";
+import mobileimage4 from "../public/assets/solarrr.jpg";
+import mobileimage5 from "../public/assets/solal.jpg";
+import mobileimage6 from "../public/assets/solar1.jpg";
+import mobileimage7 from "../public/assets/solarl.jpg";
 
-const data = [image1, image2, image3];
-const data2 = [image4, image5, image6];
+const data = [ image2, image3,image4,image5,image6,image7,image8,image9];
+const data2 = [mobileimage1, mobileimage2, mobileimage3,mobileimage4,mobileimage5,mobileimage6,mobileimage7];
 
 const scrollTo = (e, id) => {
   const element = document.getElementById(id);
@@ -86,7 +97,7 @@ const Trending = () => {
                   fill
                   src={item}
                   className="  mix-blend-overlay "
-                  alt="listing-image-slider"
+                  alt="image"
                   placeholder="blur"
                   blurDataURL="../public/assets/windsolar.jpg"
                 />
@@ -94,7 +105,7 @@ const Trending = () => {
             </div>
           ))}
         </Zoom>
-        <div className="flex justify-center absolute left-2/4 right-2/4 bottom-6 2xl:bottom-10 z-20 2xl:left-10">
+        <div className="flex justify-center absolute left-2/4 right-2/4 bottom-0 xs:-bottom-2 2xl:bottom-10 z-20 2xl:left-10">
           <div
             id="hero"
             className="flex items-center  lg:items-start  lg:px-16 2xl:px-28 3xl:px-10 2xl:pb-7  pb-10 xs:pb-0 flex-col lg:pt-10  w-full xs:mb-5 4xl:mb-20 max-w-[1400px]"
@@ -102,7 +113,7 @@ const Trending = () => {
              <section
               data-aos="zoom-in"
               data-aos-duration="300"
-              className="flex flex-col items-center w-[280px] xs:w-96 lg:items-start lg:text-start text-center  3xl:max-w-[800px] gap-6 xs:gap-12 lg:gap-8 3xl:gap-12 pt-[10px] lg:pt-[60px] pb-16 px-1 xs:px-8 sm:px-12"
+              className="flex flex-col items-center w-[280px] xs:w-96 lg:items-start lg:text-start text-center  3xl:max-w-[800px] gap-10 xs:gap-12 lg:gap-8 3xl:gap-12 pt-[10px]  lg:pt-[60px] pb-16 px-1 xs:px-8 sm:px-12"
             >
               <h1 className="font-[700] max-w-[335px] w-full sm:max-w-[500px] 3xl:max-w-[550px] lg:font-semibold text-[2rem] xs:text-4xl 2xl:text-6xl leading-[2.7rem] lg:leading-[4.5rem] text-white 3xl:pb-7">
                 Empowering Your Investments
