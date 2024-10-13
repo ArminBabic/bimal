@@ -80,12 +80,12 @@ const Trending = () => {
             <div className="w-full flex h-[600px] justify-center">
               <div
                 key={index}
-                className="relative flex justify-center w-full h-auto object-scale-down sm:h-[430px] md:h-[500px] lg:h-[600px] xl:h-[700px] 2xl:h-[750px] 3xl:h-[840px] 4xl:h-[930px]"
+                className="relative flex justify-center w-full h-auto object-scale-down sm:h-[430px] md:h-[500px] lg:h-[600px] xl:h-[700px] 2xl:h-[750px] 3xl:h-[840px] 4xl:h-[930px] bg-gray-600/90"
               >
                 <Image
                   fill
                   src={item}
-                  className="   "
+                  className="  mix-blend-overlay "
                   alt="listing-image-slider"
                   placeholder="blur"
                   blurDataURL="../public/assets/windsolar.jpg"
@@ -99,17 +99,16 @@ const Trending = () => {
             id="hero"
             className="flex items-center  lg:items-start  lg:px-16 2xl:px-28 3xl:px-10 2xl:pb-7  pb-10 xs:pb-0 flex-col lg:pt-10  w-full xs:mb-5 4xl:mb-20 max-w-[1400px]"
           >
-            <section
+             <section
               data-aos="zoom-in"
               data-aos-duration="300"
-              className="flex flex-col items-center w-72 xs:w-96 lg:items-start lg:text-start text-center  3xl:max-w-[800px] gap-6 xs:gap-12 lg:gap-8 3xl:gap-12 pt-[10px] lg:pt-[60px] pb-16 px-1 xs:px-8 sm:px-12"
+              className="flex flex-col items-center w-[280px] xs:w-96 lg:items-start lg:text-start text-center  3xl:max-w-[800px] gap-6 xs:gap-12 lg:gap-8 3xl:gap-12 pt-[10px] lg:pt-[60px] pb-16 px-1 xs:px-8 sm:px-12"
             >
               <h1 className="font-[700] max-w-[335px] w-full sm:max-w-[500px] 3xl:max-w-[550px] lg:font-semibold text-[2rem] xs:text-4xl 2xl:text-6xl leading-[2.7rem] lg:leading-[4.5rem] text-white 3xl:pb-7">
                 Empowering Your Investments
-              </h1>
-              <h2 className="max-w-[331px] w-full sm:max-w-[500px] font-[400] xs:text-[18px] text-sm  3xl:max-w-[610px] text-gray-100 leading-7 lg:leading-9 3xl:leading-[2.5rem]">
-                {/*  Look no further than our top-quality web development and services! */}{" "}
-                Energy, Acquisitions, and Real Estate Projects Tailored for
+              </h1> 
+              <h2 className="max-w-[331px] w-full  sm:max-w-[500px] font-[400] xs:text-[18px] text-sm  3xl:max-w-[610px] text-gray-100 leading-7 lg:leading-9 3xl:leading-[2.5rem]">
+                Look no further than our top-quality web development and services! 
                 Success.Explore the Future of Sustainable Development and
                 Profitable Investments in the Western Balkan.”
               </h2>
@@ -119,7 +118,7 @@ const Trending = () => {
               >
                 Get Started
               </button>
-            </section>
+            </section> 
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>nanTech Solution </title>
+        <title>ProjectPro </title>
         <meta
           name="description"
           content="Looking for top web development services, design solutions, digital marketing, and testing? Look no further than Nantech! Our team of experts will work with you to build your online presence and create customized solutions tailored to your business needs."
@@ -66,14 +66,14 @@ export default function Home() {
       <main>
         {" "}
         <Header />
-        <Banner />
+         <Banner /> 
         <Features />
         <OurServices />
         <QualityFeatures />
         {/*  <CoreFeatures /> */}
         <HowItWorks />
         {/*  <Team /> */}
-        <Testimonials />
+      {/*   <Testimonials /> */}
         <Contact />
         {/*   <Subscribe /> */}
         <Footer />
