@@ -61,44 +61,56 @@ const Features = () => {
 
         <div className="main">
           <ul className="cards">
-            <li className="cards_item  duration-200 ease-in">
-              <div class="card">
-                <div class="card_image">
+            <li
+              data-aos="fade-up"
+              data-aos-duration="200"
+              className="cards_item  duration-200 ease-in"
+            >
+              <div className="card">
+                <div className="card_image">
                   <Image className="img" src={image1} alt="image" />
                 </div>
-                <div class="card_content">
-                  <h2 class="card_title">Solar Panels</h2>
-                  <p class="card_text">
+                <div className="card_content">
+                  <h2 className="card_title">Solar Panels</h2>
+                  <p className="card_text">
                     Lorem ipsum dolor sit amet, consectet adipiscing elit, sed
                     do eiusmod tempor
                   </p>
-                  <button class="btn card_btn">Read More</button>
+                  <button className="btn card_btn">Read More</button>
                 </div>
               </div>
             </li>
-            <li class="cards_item  duration-200 ease-in">
-              <div class="card">
-                <div class="card_image">
-                  <Image className="img" src={image3} alt="image"/>
+            <li
+              data-aos="fade-up"
+              data-aos-duration="400"
+              className="cards_item  duration-200 ease-in"
+            >
+              <div className="card">
+                <div className="card_image">
+                  <Image className="img" src={image3} alt="image" />
                 </div>
-                <div class="card_content">
-                  <h2 class="card_title">Wind Turbines</h2>
-                  <p class="card_text">
+                <div className="card_content">
+                  <h2 className="card_title">Wind Turbines</h2>
+                  <p className="card_text">
                     Lorem ipsum dolor sit amet, consectet adipiscing elit, sed
                     do eiusmod tempor
                   </p>
-                  <button class="btn card_btn">Read More</button>
+                  <button className="btn card_btn">Read More</button>
                 </div>
               </div>
             </li>
-            <li class="cards_item  duration-200 ease-in">
-              <div class="card">
-                <div class="card_image">
+            <li
+              data-aos="fade-up"
+              data-aos-duration="600"
+              className="cards_item  duration-200 ease-in"
+            >
+              <div className="card">
+                <div className="card_image">
                   <Image className="img" src={image2} alt="image" />
                 </div>
-                <div class="card_content">
-                  <h2 class="card_title">Real Estate Projects</h2>
-                  <p class="card_text">
+                <div className="card_content">
+                  <h2 className="card_title">Real Estate Projects</h2>
+                  <p className="card_text">
                     Lorem ipsum dolor sit amet, consectet adipiscing elit, sed
                     do eiusmod tempor
                   </p>
