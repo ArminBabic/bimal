@@ -101,6 +101,7 @@ const Trending = () => {
               >
                 <Image
                   fill
+                  loading="eager"
                   src={item}
                   className="  mix-blend-overlay "
                   alt="image"
@@ -149,6 +150,7 @@ const Trending = () => {
               >
                 <Image
                   fill
+                  loading="eager"
                   src={item}
                   className="  mix-blend-overlay "
                   alt="image"
