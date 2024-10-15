@@ -40,9 +40,10 @@ const OurServices = () => {
                 src={serviceImg}
                 alt="our service team img"
                 fill
+                sizes=""
                 className="rounded-lg"
                 placeholder="blur"
-                blurDataURL="/assets/videoposter.webp"
+                blurDataURL="/assets/erer.jpg"
               />
             </div>
           </div>
@@ -69,7 +70,7 @@ const OurServices = () => {
                 </div>
                 <div className="flex flex-col gap-2">
                   <h4 className="font-bold text-[#303030] text-base lg:text-lg">
-                  Powerfull Strategy
+                    Powerfull Strategy
                   </h4>
                   <p
                     className="text-base text-[#303030] max-w-[310px]  sm:w-[360px] md:w-[255px]
@@ -92,13 +93,14 @@ const OurServices = () => {
                 </div>
                 <div className="flex flex-col gap-2">
                   <h4 className="font-bold text-[#303030]  text-base lg:text-lg">
-                  Save Money
+                    Save Money
                   </h4>
                   <p
                     className="text-base  text-[#303030]  max-w-[310px]  sm:w-[360px] md:w-[255px]
             lg:w-[285px] xl:max-w-[305px] 3xl:w-[355px] md:text-sm md:leading-7"
                   >
-                   Lorem ipsum dolor sit amet conse adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    Lorem ipsum dolor sit amet conse adipisci elit sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua
                   </p>
                 </div>
               </article>

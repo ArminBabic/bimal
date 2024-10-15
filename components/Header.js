@@ -62,6 +62,7 @@ function Header() {
               src={!scrollNav ? mobilelogo : logos}
               alt="logo"
               fill
+              sizes=""
               placeholder="blur"
             />
           </div>
@@ -74,6 +75,7 @@ function Header() {
               src={!scrollNav ? logo : logos}
               alt="logo"
               fill
+              sizes=""
               placeholder="blur"
             />
           </div>
