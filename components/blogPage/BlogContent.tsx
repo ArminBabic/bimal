@@ -24,26 +24,6 @@ const BlogContent = ({ blog }: any) => {
             <h2 className="text-4xl font-bold text-gray-100 leading-tight">
               {blog.attributes.title}
             </h2>
-            <div className="flex mt-3">
-              <div className="relative h-10 w-10 rounded-full mr-2 object-cover ">
-                <Image
-                  src={blog.attributes.authorImage}
-                  layout="fill"
-                  alt="author-image"
-                  className=""
-                />
-              </div>
-              <div>
-                <p className="font-semibold text-gray-200 text-sm">
-                  {" "}
-                  {blog.attributes.author}
-                </p>
-                <p className="font-bold text-secondary italic text-xs">
-                  {" "}
-                  {blog.attributes.date}
-                </p>
-              </div>
-            </div>
           </div>
         </div>
 

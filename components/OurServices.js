@@ -99,8 +99,9 @@ const OurServices = () => {
                     className="text-base  text-[#303030]  max-w-[310px]  sm:w-[360px] md:w-[255px]
             lg:w-[285px] xl:max-w-[305px] 3xl:w-[355px] md:text-sm md:leading-7"
                   >
-                    Lorem ipsum dolor sit amet conse adipisci elit sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    We offer carefully vetted opportunities across
+                    high-potential sectors, ensuring your investments are not
+                    only safe but also poised for growth.
                   </p>
                 </div>
               </article>

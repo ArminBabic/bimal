@@ -9,13 +9,12 @@ const Listings = ({ data, list }) => {
 
   return (
     <div className="bg-white">
-   
       <PrivacyHeader />
 
       <div className="flex flex-col items-center">
         <BlogContent blog={data[0]} />
       </div>
-      <Footer />
+      {/*  <Footer /> */}
     </div>
   );
 };
