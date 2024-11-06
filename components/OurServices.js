@@ -52,10 +52,10 @@ const OurServices = () => {
           <div className="flex flex-col items-center md:items-start gap-5">
             <header className="px-3 md:flex flex-col items-start hidden">
               <h3 className=" uppercase text-[12px] font-semibold sm:text-base text-secondary py-2 max-w-[24rem] ">
-                Online Presence Services
+                why Choose us
               </h3>
               <p className=" text-2xl 2xl:text-4xl font-semibold  text-headings  max-w-[315px] 2xl:max-w-[450px]">
-                Strategic Design for Business Growth
+                We are ready for your investment
               </p>
             </header>
             <div className="flex flex-col items-center gap-8 ">

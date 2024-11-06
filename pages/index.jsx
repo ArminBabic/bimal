@@ -19,9 +19,6 @@ import Footer from "../components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-
-
-
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -73,18 +70,18 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
       <main>
         {" "}
         <Header />
-         <Banner /> 
+        <Banner />
         <Features />
+        <CoreFeatures />
         <OurServices />
-      {/*   <QualityFeatures /> */}
-        {/*  <CoreFeatures /> */}
+        <QualityFeatures />
         <HowItWorks />
-     {/*    <ServicesNews/> */}
+        {/*    <ServicesNews/> */}
         {/*  <Team /> */}
-      {/*   <Testimonials /> */}
-       {/*  <Contact /> */}
+        {/*   <Testimonials /> */}
+        {/*  <Contact /> */}
         {/*   <Subscribe /> */}
-    {/*     <Footer /> */}
+        {/*     <Footer /> */}
       </main>
     </>
   );
