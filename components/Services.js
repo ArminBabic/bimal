@@ -15,7 +15,7 @@ import data2 from "../data/services.json";
 
 const data = [image1, image2, image3];
 
-const Features = () => {
+const Services = () => {
   return (
     <div
       id="services"
@@ -69,4 +69,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default Services;

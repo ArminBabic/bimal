@@ -6,7 +6,7 @@ import styles from "@/styles/Home.module.css";
 import Banner from "../components/Banner";
 
 import Header from "../components/Header";
-import Features from "../components/Features";
+import Services from "../components/Services";
 import OurServices from "../components/OurServices";
 import QualityFeatures from "../components/QualityFeatures";
 import CoreFeatures from "../components/CoreFeatures";
@@ -71,7 +71,7 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
         {" "}
         <Header />
         <Banner />
-        <Features />
+        <Services />
         <CoreFeatures />
         <OurServices />
         <QualityFeatures />
