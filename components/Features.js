@@ -30,43 +30,39 @@ const Features = () => {
             Our services are here to help
           </p>
         </header>
-      
 
         <div className="main">
-         
-     
-        <ul className="cards">
-          {data2.services.map((item, index) => (
-            <Link key={item.id} href={`/services/${item.id}`}  data-aos="fade-up"
-            data-aos-duration="200"
-            className="cards_item  duration-200 ease-in">
-
-              <div
-              className="card"
+          <ul className="cards ">
+            {data2.services.map((item, index) => (
+              <Link
+                key={item.id}
+                href={`/services/${item.id}`}
+                data-aos="fade-up"
+                data-aos-duration="200"
+                className="cards_item  duration-200 ease-in"
               >
+                <div className="card">
                   <div className="card_image">
-                  <Image width={500} height={700} className="img" src={item.attributes.mainImage} alt="image"  loading="lazy" />
+                    <Image
+                      width={640}
+                      height={700}
+                      className="img"
+                      src={item.attributes.mainImage}
+                      alt="image"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="card_content">
+                    <h2 className="card_title"> {item.attributes.title}</h2>
+                    <p className="card_text">
+                      {item.attributes.subtitle.slice(0, 70)}...
+                    </p>
+                    <button className="btn card_btn">Read More</button>
+                  </div>
                 </div>
-                <div className="card_content">
-                  <h2 className="card_title">   {item.attributes.title}</h2>
-                  <p className="card_text">
-                  {item.attributes.subtitle}
-                  </p>
-                  <button className="btn card_btn">Read More</button>
-                </div>
-
-
-
-
-
-
-
-               
-              
-              </div>
-            </Link>
-          ))}
-        </ul>
+              </Link>
+            ))}
+          </ul>
         </div>
       </section>
     </div>
