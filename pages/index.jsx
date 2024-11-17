@@ -7,6 +7,12 @@ import Banner from "../components/Banner";
 
 import Header from "../components/Header";
 import Services from "../components/Services";
+import AboutUs from "../components/AboutUs"
+
+
+
+
+
 import OurServices from "../components/OurServices";
 import QualityFeatures from "../components/QualityFeatures";
 import CoreFeatures from "../components/CoreFeatures";
@@ -71,11 +77,13 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
         {" "}
         <Header />
         <Banner />
-        <Services />
+        <Services />  
+          <AboutUs/>
         <CoreFeatures />
         <OurServices />
         <QualityFeatures />
         <HowItWorks />
+    
         {/*    <ServicesNews/> */}
         {/*  <Team /> */}
         {/*   <Testimonials /> */}
