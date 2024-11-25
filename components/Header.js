@@ -3,9 +3,9 @@ import React, { useState, useEffect } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaFacebook, FaEnvelope, FaInstagram, FaPhone } from "react-icons/fa";
-import logo from "../public/assets/windlogo.png";
-import logos from "../public/assets/windlogo.png";
-import mobilelogo from "../public/assets/windlogo.png";
+import logo from "../public/logo2.png";
+import logos from "../public/logo2.png";
+import mobilelogo from "../public/logo2.png";
 import Image from "next/image";
 
 function Header() {
@@ -48,15 +48,15 @@ function Header() {
     <div
       className={
         !scrollNav
-          ? "w-full  flex justify-center bg-transparent py-2 relative z-10"
+          ? "w-full  flex justify-center bg-transparent   relative z-10"
           : " w-full  flex justify-center shadow-2xl bg-white sticky top-0 py-2 z-50"
       }
     >
-      <nav className="w-full  flex justify-between items-center py-[.5rem] px-3 xs:px-6 sm:px-8 lg:px-16 ">
+      <nav className="w-full  flex justify-between items-center  px-3 xs:px-6 sm:px-8 lg:px-16 ">
         <Link href="/" className="text-[#303030]  ">
           <div
             onClick={(e) => scrollToTop()}
-            className="sm:hidden relative w-[123px] h-[46px] cursor-pointer"
+            className="sm:hidden relative  w-[100px] h-[100px] cursor-pointer"
           >
             <Image
               src={!scrollNav ? mobilelogo : logos}
@@ -69,7 +69,7 @@ function Header() {
 
           <div
             onClick={(e) => scrollToTop()}
-            className=" hidden sm:block relative w-[201px] h-[76px] cursor-pointer"
+            className=" hidden sm:block relative w-[100px] h-[100px] cursor-pointer"
           >
             <Image
               src={!scrollNav ? logo : logos}
