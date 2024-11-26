@@ -4,9 +4,9 @@ import { CgMenuRight } from "react-icons/cg";
 import { AiOutlineClose, AiOutlineMail, AiFillYoutube } from "react-icons/ai";
 import { RiLinkedinFill } from "react-icons/ri";
 import { FaFacebook, FaEnvelope } from "react-icons/fa";
-import logo from "../public/assets/windlogo.png";
-import logos from "../public/assets/windlogo.png";
-import mobilelogo from "../public/assets/windlogo.png";
+import logo from "../public/logo7.png";
+import logos from "../public/logo7.png";
+import mobilelogo from "../public/logo7.png";
 import Image from "next/image";
 
 function Header() {
@@ -57,14 +57,14 @@ function Header() {
         <Link href="/" className="text-[#303030]  ">
           <div
             onClick={(e) => scrollToTop()}
-            className="sm:hidden relative w-[123px] h-[46px] cursor-pointer"
+            className="sm:hidden relative w-[100px] h-[100px] cursor-pointer"
           >
             <Image src={logos} alt="logo" fill placeholder="blur" />
           </div>
 
           <div
             onClick={(e) => scrollToTop()}
-            className=" hidden sm:block relative w-[201px] h-[76px] cursor-pointer"
+            className=" hidden sm:block relative w-[100px] h-[100px] cursor-pointer"
           >
             <Image src={logos} alt="logo" fill placeholder="blur" />
           </div>
@@ -148,7 +148,7 @@ function Header() {
                 <Link href="/">
                   <div
                     onClick={toggleHandler}
-                    className="sm:hidden relative w-[201px] h-[36px]"
+                    className="sm:hidden relative w-[60px] h-[60px]"
                   >
                     <Image
                       src={mobilelogo}
@@ -161,7 +161,7 @@ function Header() {
                 <Link href="/">
                   <div
                     onClick={toggleHandler}
-                    className=" hidden sm:block relative w-[201px] h-[36px] cursor-pointer"
+                    className=" hidden sm:block relative w-[50px] h-[50px] cursor-pointer"
                   >
                     <Image src={logo} alt="logo" fill placeholder="blur" />
                   </div>
@@ -215,7 +215,7 @@ function Header() {
               className="headerLinkMobile text-[#303030] ab   cursor-pointer xs:text-lg sm:text-xl"
             >
               <Link legacyBehavior href="/#contact">
-                <a>Contact</a>
+                <a>Contacta</a>
               </Link>
             </li>
           </ul>

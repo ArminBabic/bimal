@@ -25,7 +25,7 @@ const Privacy = () => {
         <PrivacyHeader />
 
         <Police />
-   {/*      <Footer /> */}
+        <Footer />
       </div>
     </div>
   );

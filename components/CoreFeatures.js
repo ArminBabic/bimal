@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import coreImg from "../public/assets/aboutus.jpg";
-import shapeImg from "../public/assets/shape-pattern2.webp";
+
 const CoreFeatures = () => {
   const scrollTo = (e, id) => {
     const element = document.getElementById(id);
@@ -24,7 +24,13 @@ const CoreFeatures = () => {
               Years of Experience in Solar & Renewable Energy
             </h4>
             <h4 className="font-[400] text-xs  sm:text-sm lg:text-base  max-w-[504px] text-primary leading-7 lg:leading-9">
-            At Project Pro, we are dedicated to establishing long-term trust in the Balkan market by offering the most extensive portfolio of high-value investments, ranging from renewable energy projects to real estate developments and strategic acquisitions. We specialize in connecting international investors with premium opportunities across the region, providing seamless end-to-end support throughout the investment process.
+              At Project Pro, we are dedicated to establishing long-term trust
+              in the Balkan market by offering the most extensive portfolio of
+              high-value investments, ranging from renewable energy projects to
+              real estate developments and strategic acquisitions. We specialize
+              in connecting international investors with premium opportunities
+              across the region, providing seamless end-to-end support
+              throughout the investment process.
             </h4>
           </header>
           <button
@@ -51,7 +57,6 @@ const CoreFeatures = () => {
           </div>
         </article>
       </section>
-     
     </main>
   );
 };

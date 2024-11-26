@@ -84,7 +84,7 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
         {/*   <Testimonials /> */}
         <Contact />
         {/*   <Subscribe /> */}
-        {/*     <Footer /> */}
+        <Footer />
       </main>
     </>
   );
