@@ -3,9 +3,9 @@ import React, { useState, useEffect } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaFacebook, FaEnvelope, FaInstagram, FaPhone } from "react-icons/fa";
-import logo from "../public/logo2.png";
-import logos from "../public/logo2.png";
-import mobilelogo from "../public/logo2.png";
+import logo from "../public/logo7.png";
+import logos from "../public/logo7.png";
+import mobilelogo from "../public/logo7.png";
 import Image from "next/image";
 
 function Header() {
@@ -49,14 +49,14 @@ function Header() {
       className={
         !scrollNav
           ? "w-full  flex justify-center bg-transparent   relative z-10"
-          : " w-full  flex justify-center shadow-2xl bg-white sticky top-0 py-2 z-50"
+          : " w-full  flex justify-center shadow-2xl bg-white sticky top-0  z-50"
       }
     >
       <nav className="w-full  flex justify-between items-center  px-3 xs:px-6 sm:px-8 lg:px-16 ">
         <Link href="/" className="text-[#303030]  ">
           <div
             onClick={(e) => scrollToTop()}
-            className="sm:hidden relative  w-[100px] h-[100px] cursor-pointer"
+            className="sm:hidden relative  w-[70px] h-[70px] cursor-pointer"
           >
             <Image
               src={!scrollNav ? mobilelogo : logos}
@@ -152,12 +152,12 @@ function Header() {
           }
         >
           <div className="">
-            <div className="flex items-center justify-between px-10 w-full pt-4">
+            <div className="flex items-center justify-between px-10 w-full ">
               <div className="text-[#303030]">
                 <div className="cursor-pointer" onClick={(e) => scrollToTop()}>
                   <div
                     onClick={toggleHandler}
-                    className="sm:hidden relative w-[123px] h-[46px]"
+                    className="sm:hidden relative w-[50px] h-[50px]"
                   >
                     <Image src={logos} alt="logo" fill placeholder="blur" />
                   </div>
@@ -166,7 +166,7 @@ function Header() {
                   {" "}
                   <div
                     onClick={toggleHandler}
-                    className=" hidden sm:block relative w-[123px] h-[46px] cursor-pointer"
+                    className=" hidden sm:block relative w-[46px] h-[46px] cursor-pointer"
                   >
                     <Image src={logos} alt="logo" fill placeholder="blur" />
                   </div>
