@@ -52,10 +52,10 @@ const OurServices = () => {
           <div className="flex flex-col items-center md:items-start gap-5">
             <header className="px-3 md:flex flex-col items-start hidden">
               <h3 className=" uppercase text-[12px] font-semibold sm:text-base text-secondary py-2 max-w-[24rem] ">
-                why Choose us
+                Our team
               </h3>
               <p className=" text-2xl 2xl:text-4xl font-semibold  text-headings  max-w-[315px] 2xl:max-w-[450px]">
-                We are ready for your investment
+                Embedded in the economy and culture
               </p>
             </header>
             <div className="flex flex-col items-center gap-8 ">
@@ -76,9 +76,10 @@ const OurServices = () => {
                     className="text-base text-[#303030] max-w-[310px]  sm:w-[360px] md:w-[255px]
             lg:w-[285px] xl:max-w-[305px] 3xl:w-[355px] md:text-sm md:leading-7  "
                   >
-                    Our platform offers a range of advanced features that are
-                    specifically designed to enhance user experience and
-                    increase productivity.
+                    Giving us unparalleled access to opportunities and allowing
+                    us to anticipate potential challenges before they arise.We
+                    offer seamless support that is tailored to each client's
+                    needs.
                   </p>
                 </div>
               </article>
@@ -99,9 +100,9 @@ const OurServices = () => {
                     className="text-base  text-[#303030]  max-w-[310px]  sm:w-[360px] md:w-[255px]
             lg:w-[285px] xl:max-w-[305px] 3xl:w-[355px] md:text-sm md:leading-7"
                   >
-                    We offer carefully vetted opportunities across
-                    high-potential sectors, ensuring your investments are not
-                    only safe but also poised for growth.
+                    Investors choose us because we provide not just guidance but
+                    a true partnership — helping them navigate new markets with
+                    confidence.
                   </p>
                 </div>
               </article>

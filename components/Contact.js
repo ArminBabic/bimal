@@ -173,7 +173,9 @@ const Contact = () => {
                       <FaEnvelope className="text-secondary w-5 h-6 relative" />
                       <div className="flex flex-col ">
                         <p className="font-semibold text-lg">Email</p>
-                        <p className="text-sm   italic ">nantechs@gmail.com</p>
+                        <p className="text-sm   italic ">
+                          info@projectprosee.com
+                        </p>
                       </div>
                     </div>
                     <div className=" flex  px-1 gap-2 text-sm ">
