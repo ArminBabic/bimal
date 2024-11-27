@@ -6,20 +6,20 @@ import serviceImg from "../public/assets/erer.jpg";
 const OurServices = () => {
   return (
     <div id="ourservices" className="w-full flex justify-center  py-12">
-      <section className="w-full max-w-[1250px] px-5">
+      <section className="w-full max-w-[480px] sm:max-w-[1250px] mx-2">
         <header
           data-aos="fade"
-          className=" px-2 xs:px-6 sm:px-16 xl:px-6 2xl:px-16 flex flex-col items-center md:hidden"
+          className="  sm:px-16 xl:px-6 2xl:px-16 flex flex-col sm:items-center md:hidden"
         >
-          <h3 className=" uppercase text-[12px] font-semibold sm:text-base text-secondary py-2 px-2 max-w-[24rem] ">
-            Online Presence Services
+          <h3 className=" uppercase text-[12px]  font-semibold sm:text-base text-secondary py-2  max-w-[24rem] ">
+            Our team
           </h3>
-          <p className=" text-2xl 3xl:text-4xl font-semibold  text-headings text-center ">
-            Strategic Design for Business Growth
+          <p className=" text-2xl 3xl:text-4xl font-semibold  text-headings sm:text-center ">
+            Embedded in the economy and culture
           </p>
         </header>
 
-        <main className="flex flex-col-reverse md:flex-row gap-12 md:justify-center md:gap-4 lg:gap-10 xl:gap-16 2xl:gap-20 mt-12">
+        <main className="flex flex-col-reverse md:flex-row gap-12 md:justify-center md:gap-12 lg:gap-16 xl:gap-16 2xl:gap-20 mt-12">
           {/* left video side */}
           <div
             data-aos="fade-down"
@@ -50,7 +50,7 @@ const OurServices = () => {
 
           {/* right services side */}
           <div className="flex flex-col items-center md:items-start gap-5">
-            <header className="px-3 md:flex flex-col items-start hidden">
+            <header className=" md:flex flex-col items-start hidden">
               <h3 className=" uppercase text-[12px] font-semibold sm:text-base text-secondary py-2 max-w-[24rem] ">
                 Our team
               </h3>
@@ -58,11 +58,11 @@ const OurServices = () => {
                 Embedded in the economy and culture
               </p>
             </header>
-            <div className="flex flex-col items-center gap-8 ">
+            <div className="flex flex-col sm:items-center gap-8 ">
               <article
                 data-aos="fade-up"
                 data-aos-duration="500"
-                className="w-full px-3 max-w-[370px] sm:max-w-[420px] md:max-w-[315px] lg:max-w-[360px] xl:max-w-[380px] 3xl:max-w-[430px] flex  gap-4 
+                className="w-full   sm:max-w-[420px] md:max-w-[315px] lg:max-w-[360px] xl:max-w-[380px] 3xl:max-w-[430px] flex  gap-4 
             cursor-pointer "
               >
                 <div className=" relative flex items-center justify-center bg-[#ff4840] rounded-2xl w-10 h-10 mt-2 ">
@@ -73,7 +73,7 @@ const OurServices = () => {
                     Powerfull Strategy
                   </h4>
                   <p
-                    className="text-base text-[#303030] max-w-[310px]  sm:w-[360px] md:w-[255px]
+                    className="text-base text-[#303030]   sm:w-[360px] md:w-[255px]
             lg:w-[285px] xl:max-w-[305px] 3xl:w-[355px] md:text-sm md:leading-7  "
                   >
                     Giving us unparalleled access to opportunities and allowing
@@ -86,7 +86,7 @@ const OurServices = () => {
               <article
                 data-aos="fade-up"
                 data-aos-duration="500"
-                className="w-full px-3 max-w-[370px] sm:max-w-[420px] md:max-w-[315px] lg:max-w-[360px] xl:max-w-[380px] 3xl:max-w-[430px] flex  gap-4 
+                className="w-full   sm:max-w-[420px] md:max-w-[315px] lg:max-w-[360px] xl:max-w-[380px] 3xl:max-w-[430px] flex  gap-4 
             cursor-pointer "
               >
                 <div className=" relative flex items-center justify-center bg-secondary rounded-2xl w-10 h-10 mt-2">
@@ -97,7 +97,7 @@ const OurServices = () => {
                     Save Money
                   </h4>
                   <p
-                    className="text-base  text-[#303030]  max-w-[310px]  sm:w-[360px] md:w-[255px]
+                    className="text-base  text-[#303030]   sm:w-[360px] md:w-[255px]
             lg:w-[285px] xl:max-w-[305px] 3xl:w-[355px] md:text-sm md:leading-7"
                   >
                     Investors choose us because we provide not just guidance but
