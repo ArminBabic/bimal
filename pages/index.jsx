@@ -17,6 +17,7 @@ import Team from "../components/Team";
 import Testimonials from "../components/Testimonials";
 import Subscribe from "../components/Subscribe";
 import Contact from "../components/Contact";
+import Faq from "../components/Faq";
 import Footer from "../components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -83,6 +84,7 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
         {/*  <Team /> */}
         {/*   <Testimonials /> */}
         <Contact />
+        <Faq />
         {/*   <Subscribe /> */}
         <Footer />
       </main>

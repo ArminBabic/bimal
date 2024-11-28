@@ -24,7 +24,7 @@ const AboutUs = () => {
                 className="rounded-2xl"
                 alt="house1"
                 placeholder="blur"
-                blurDataURL="/assets/alizino.jpg"
+                blurDataURL="/logo1.jpg"
               />
             </div>
           </div>
@@ -105,7 +105,7 @@ const AboutUs = () => {
                 className="rounded-2xl"
                 alt="house1"
                 placeholder="blur"
-                blurDataURL="/assets/alizino.jpg"
+                blurDataURL="/logo1.jpg"
               />
             </div>
           </div>
@@ -124,7 +124,7 @@ const AboutUs = () => {
                 className="rounded-2xl"
                 alt="house1"
                 placeholder="blur"
-                blurDataURL="/assets/alizino.jpg"
+                blurDataURL="/assets/logo1.jpg"
               />
             </div>
           </div>

@@ -50,7 +50,7 @@ const CoreFeatures = () => {
               alt="core-features-img"
               fill
               placeholder="blur"
-              blurDataURL="/assets/corefeature.webp"
+              blurDataURL="/logo1.jpg"
               className="rounded-lg"
             />
           </div>
