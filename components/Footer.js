@@ -18,7 +18,7 @@ const Footer = () => {
 
   return (
     <div className="w-full flex justify-center pt-16 px-3">
-      <section className="w-full max-w-[1420px] flex flex-col items-center gap-8 border-t-[1px] py-10 ">
+      <section className="w-full max-w-[1420px] flex flex-col items-center gap-8 border-t-[1px] border-secondary py-10 ">
         <div onClick={(e) => scrollToTop()}>
           <div className="  relative w-[100px] h-[100px] cursor-pointer">
             <Image src={logo} alt="logo" fill placeholder="blur" />

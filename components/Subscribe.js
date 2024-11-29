@@ -6,9 +6,9 @@ import { BsPeopleFill } from "react-icons/bs";
 
 const Subscribe = () => {
   return (
-    <div className="w-full flex flex-col items-center px-3 gap-16">
+    <div className="w-full flex flex-col items-center my-8 px-3 gap-16">
       {" "}
-      <section className="w-full max-w-[1140px] pt-1  px-2 xs:px-6 sm:px-16 xl:px-2 2xl:px-16  gap-6 xl:gap-10 2xl:gap-48 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  place-items-center ">
+      <section className="w-full max-w-[1420px] pt-1  px-2 xs:px-6 sm:px-16 xl:px-2 2xl:px-16  gap-6 xl:gap-10 2xl:gap-48 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  place-items-center ">
         <article
           className="max-w-[250px] xs:w-[380px] sm:w-[256px] md:w-[310px]
             xl:w-[250px] h-[256px] 2xl:w-[17.5rem]   flex flex-col gap-4 justify-center items-center text-center 
@@ -56,7 +56,7 @@ const Subscribe = () => {
           </p>
         </article>
       </section>
-      <section className="bg-secondary w-full max-w-[1140px] flex flex-col gap-6 items-center rounded-xl py-12 sm:py-20 px-4">
+      <section className="bg-secondary w-full max-w-[1380px] flex flex-col gap-6 items-center rounded-xl py-12 sm:py-20 px-4">
         <h4 className=" text-2xl sm:text-4xl font-semibold  text-white text-center max-w-[540px]">
           Join our community
         </h4>
@@ -69,12 +69,12 @@ const Subscribe = () => {
         <form className="mt-8 flex flex-col gap-2 w-full sm:hidden max-w-[400px]">
           <input
             type="email"
-            placeholder="Enter your email address"
-            className="rounded-[3rem] pl-6 pr-6 py-4 outline-none w-full placeholder:text-secondary placeholder:text-center"
+            placeholder="Enter email address"
+            className="rounded-[3rem] border-4 border-white pl-6 pr-6 py-4 outline-none w-full placeholder:text-secondary placeholder:text-center"
           />
 
-          <button className="text-white bg-[#343D48] w-full rounded-[30px] border-2 py-4 hover:bg-white hover:text-secondary border-secondary ease-in duration-300">
-            Join Us
+          <button className="text-white bg-secondary border-white  w-full rounded-[30px] border-4 py-4 hover:bg-white hover:text-secondary border-secondary ease-in duration-300">
+            Subscribe
           </button>
         </form>
 
@@ -82,11 +82,11 @@ const Subscribe = () => {
         <form className="bg-white rounded-[3rem] py-1 items-center gap-20 mt-12 hidden sm:flex">
           <input
             type="email"
-            placeholder="Enter your email address"
+            placeholder="Enter email address"
             className="rounded-[3rem] pl-6 pr-20 py-5 outline-none placeholder:text-secondary"
           />
           <button className="text-white bg-secondary rounded-[30px] border-2 py-2 sm:py-4 px-8 mx-1 hover:bg-white hover:text-secondary border-secondary ease-in duration-300">
-            Join Us
+            Subscribe
           </button>
         </form>
       </section>

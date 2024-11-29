@@ -11,11 +11,16 @@ export default function Faq() {
     }
   };
   return (
-    <div className="w-full flex flex-col items-center my-8">
-      <header className="text-2xl sm:text-4xl font-semibold  text-primary text-center">
-        FAQ
+    <div className="w-full flex flex-col items-center my-8 pt-8 gap-8 ">
+      <header className="w-full text-center ">
+        <h2 className="text-lg xl:text-xl text-secondary w-full font-md tracking-wide mb-2">
+          FAQ
+        </h2>
+        <p className="pt-2 text-[#000] font-bold text-2xl xl:text-3xl relative z-10 ">
+          Energy Projects Project Pro
+        </p>
       </header>
-      <main className="w-full max-w-[1420px]">
+      <main className="w-full max-w-[1380px]">
         <div id="accordionExample">
           <div className="rounded-none  border border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
             <h2 className="mb-0" id="headingOne">
@@ -137,7 +142,7 @@ export default function Faq() {
             </div>
           </div>
         </div>
-        <div className="rounded-none border border-b-0 border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+        <div className="rounded-none border  border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
           <h2 className="accordion-header mb-0" id="headingThree">
             <button
               className={`${
@@ -200,7 +205,7 @@ export default function Faq() {
             </div>
           </div>
         </div>
-        <div className="rounded-none border border-b-0 border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+        <div className="rounded-none border  border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
           <h2 className="accordion-header mb-0" id="headingFour">
             <button
               className={`${
@@ -260,7 +265,7 @@ export default function Faq() {
             </div>
           </div>
         </div>
-        <div className="rounded-none border border-b-0 border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+        <div className="rounded-none border  border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
           <h2 className="accordion-header mb-0" id="headingFive">
             <button
               className={`${
@@ -331,7 +336,7 @@ export default function Faq() {
             </div>
           </div>
         </div>
-        <div className="rounded-none border border-b-0 border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+        <div className="rounded-none border  border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
           <h2 className="accordion-header mb-0" id="headingSix">
             <button
               className={`${
@@ -388,7 +393,7 @@ export default function Faq() {
             </div>
           </div>
         </div>
-        <div className="rounded-none border border-b-0 border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
+        <div className="rounded-none border  border-l-0 border-r-0 border-t-0 border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800">
           <h2 className="accordion-header mb-0" id="headingSeven">
             <button
               className={`${

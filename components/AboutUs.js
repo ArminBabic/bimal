@@ -30,7 +30,7 @@ const AboutUs = () => {
           </div>
           <div className="w-[95%] max-w-[30rem] md:max-w-[340px] lg:max-w-[30rem] grow flex flex-col  mx-auto md:mx-0 2xl:mx-0  items-start gap-4  ">
             <div className="mb-2  lg:my-0  w-full ">
-              <h2 className=" text-3xl md:text-lg lg:text-3xl italic text-secondary font-bold xs:w-[350px] md:w-[300px]">
+              <h2 className=" text-3xl md:text-lg lg:text-2xl italic text-secondary font-bold xs:w-[350px] md:w-[300px]">
                 About Us
               </h2>
             </div>
