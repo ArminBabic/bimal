@@ -13,6 +13,7 @@ import OurServices from "../components/OurServices";
 import QualityFeatures from "../components/QualityFeatures";
 import CoreFeatures from "../components/CoreFeatures";
 import HowItWorks from "../components/HowItWorks";
+import Projects from "../components/Projects";
 import Team from "../components/Team";
 import Testimonials from "../components/Testimonials";
 import Subscribe from "../components/Subscribe";
@@ -80,6 +81,7 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
         <OurServices />
         <QualityFeatures />
         <HowItWorks />
+        <Projects />
         {/*    <ServicesNews/> */}
         {/*  <Team /> */}
         {/*   <Testimonials /> */}

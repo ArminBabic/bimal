@@ -1,0 +1,67 @@
+{
+  "projects": [
+    {
+      "id": "solar-plant-1",
+      "attributes": {
+        "mainImage": "/assets/solar5.jpg",
+        "title": "1.SOLAR PLANT – WITH THE CAPACITY OF 52 MW (AC) FEDERATION OF BOSNIA AND HERZETGOVINA ",
+        "image": "/assets/solar5.jpg",
+        "category": "Green Energy",
+        "author": "Armin Babic",
+        "subtitle": "Investing in solar panels is one of the most impactful decisions you can make...",
+        "authorImage": "/assets/arminbg3.webp",
+        "contentA": "Investing in solar panels is one of the most impactful and forward-thinking decisions you can make, both for the environment and your wallet. As we face increasing concerns over climate change and the rising costs of traditional energy, solar energy offers a sustainable, clean, and reliable alternative.",
+        "contentB": "By harnessing the power of the sun, solar panels provide a renewable source of electricity that reduces your carbon footprint and helps protect the planet for future generations.",
+        "contentC": "Financially, investing in solar panels is not only about saving money—though that is a significant benefit. With solar energy, you can significantly lower your utility bills, and in many cases, even eliminate them altogether.",
+        "firstImage": "/assets/sola3.jpg",
+        "contentD": "The cost of solar installation has decreased dramatically in recent years, making it a more accessible option for homeowners and businesses alike. ",
+        "contentE": "Plus, with government incentives, tax credits, and rebates available in many regions, the upfront cost can be significantly reduced, increasing the return on investment.",
+        "contentF": "Over time, solar panels increase the value of your property and can provide long-term financial stability. With minimal maintenance required, they offer a reliable source of energy for decades, often coming with warranties of 20 to 25 years. This makes solar panels an excellent choice not just for today but for securing energy independence in the future.",
+        "contentG": "Beyond the financial and practical benefits, solar energy is an important part of the global shift toward cleaner energy. By reducing reliance on fossil fuels, solar panels help combat pollution and reduce greenhouse gas emissions, contributing to a healthier planet.",
+        "conclusion": "In essence, investing in solar panels is an investment in a brighter, more sustainable future. It’s a win for your finances, your community, and the environment. Why not take the step today and start making a positive impact tomorrow?"
+      }
+    },
+    {
+      "id": "wind-turbines",
+      "attributes": {
+        "mainImage": "/assets/wind2.jpg",
+        "title": "test project 2",
+        "image": "/assets/wind2.jpg",
+        "category": "Green Energy",
+        "author": "Armin Babic",
+        "subtitle": " Investing in wind turbines is an excellent way to embrace clean, renewable energy...",
+        "authorImage": "/assets/arminbg3.webp",
+        "contentA": "Investing in wind turbines is an excellent way to embrace clean, renewable energy while making a positive impact on both your finances and the environment. As the world continues to grapple with the challenges of climate change and the growing demand for sustainable energy, wind power offers a reliable, eco-friendly alternative to traditional fossil fuels.",
+        "contentB": "By harnessing the power of the wind, wind turbines generate clean electricity that reduces greenhouse gas emissions and helps combat global warming.",
+        "contentC": "From a financial perspective, wind turbines can be a smart investment. Once installed, wind energy systems can provide substantial savings on electricity bills, particularly for businesses or properties in areas with consistent wind resources.",
+        "firstImage": "/assets/windd.jpg",
+        "contentD": "The cost of wind energy technology has steadily decreased in recent years, making it a more accessible and cost-effective option for many. Additionally, government incentives, grants, and tax credits in many regions can help offset the initial cost of installation, increasing the long-term return on investment.",
+        "contentE": "Wind turbines also offer long-term financial benefits through energy independence. By generating your own electricity, you become less reliant on fluctuating energy prices and grid outages. For businesses, this can translate into more predictable energy costs and reduced exposure to energy market volatility.",
+        "contentF": "Furthermore, wind energy systems typically have low operational costs once installed, with minimal maintenance required over their lifespan, which can range from 20 to 30 years or more.",
+        "contentG": "Beyond the financial advantages, investing in wind turbines is a powerful way to contribute to a cleaner, greener world. Wind power is one of the most environmentally friendly energy sources available, with no emissions, no pollution, and no waste products. ",
+        "conclusion": "In conclusion, investing in wind turbines is not just an investment in energy—it’s an investment in a sustainable and resilient future. Whether for cost savings, energy independence, or environmental stewardship, wind turbines offer a smart, long-term solution for individuals and businesses alike."
+      }
+    },
+    {
+      "id": "real-estate-projects",
+      "attributes": {
+        "mainImage": "/assets/hotel.jpg",
+        "title": "Real Estate Projects",
+        "image": "/assets/hotel.jpg",
+        "category": "Investment",
+        "author": "Armin Babic",
+        "subtitle": "Investing in real estate is one of the most reliable and ways to build long-term wealth...",
+        "authorImage": "/assets/arminbg3.webp",
+        "contentA": "Investing in real estate projects is one of the most reliable and rewarding ways to build long-term wealth. Whether you're looking to invest in residential, commercial, or mixed-use developments, real estate offers unique opportunities for both financial growth and portfolio diversification.",
+        "contentB": "As urbanization continues to expand and the demand for quality living spaces, workplaces, and retail environments rises, real estate remains a fundamental part of the global economy and an essential asset class.",
+        "contentC": "From a financial standpoint, real estate has proven to be a resilient investment over time, often providing strong returns through rental income and property appreciation. By investing in real estate, you can generate consistent cash flow from rental properties, while also benefiting from long-term value appreciation as the market grows.",
+        "firstImage": "/assets/realestate.jpg",
+        "contentD": "Real estate tends to appreciate over time, driven by factors like location, demand, and improvements to the property, meaning your investment can continue to build wealth well into the future.",
+        "contentE": "One of the key advantages of investing in real estate projects is the ability to leverage financing. With favorable lending terms, you can acquire properties with a relatively small initial investment and still reap the benefits of their full value. This leverage amplifies your potential return on investment and allows you to scale your portfolio more quickly than with other asset classes.",
+        "contentF": "Real estate is also a tangible asset, providing a sense of security compared to more volatile investments like stocks or cryptocurrencies. While markets may fluctuate, real estate tends to be more stable, especially when you're investing in high-demand areas or well-planned developments.",
+        "contentG": "Beyond the financial gains, investing in real estate can also have a significant social impact. Well-planned developments contribute to community growth by providing housing, creating jobs, and enhancing local infrastructure. Whether it's a new residential neighborhood, a commercial center, or a mixed-use development that brings together living, shopping, and working spaces, real estate projects have the power to shape communities and improve quality of life for residents and businesses alike.",
+        "conclusion": "In conclusion, real estate investment is a smart way to diversify your portfolio, generate income, and build long-term wealth. Whether you're interested in residential properties, commercial ventures, or large-scale development projects, the potential rewards are significant. By choosing real estate, you’re not just investing in buildings—you’re investing in growth, stability, and community."
+      }
+    }
+  ]
+}
