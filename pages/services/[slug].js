@@ -3,7 +3,7 @@ import React from "react";
 import data1 from "../../data/services.json";
 import PrivacyHeader from "../../components/PrivacyHeader";
 import Footer from "../../components/Footer";
-import BlogContent from "../../components/blogPage/BlogContent";
+import ServicesContent from "../../components/ServicesPage/ServicesContent";
 const Listings = ({ data, list }) => {
   const recentListings = list.slice(0, 4);
 
@@ -12,9 +12,9 @@ const Listings = ({ data, list }) => {
       <PrivacyHeader />
 
       <div className="flex flex-col items-center">
-        <BlogContent blog={data[0]} />
+        <ServicesContent services={data[0]} />
       </div>
-      {/*  <Footer /> */}
+      <Footer />
     </div>
   );
 };
