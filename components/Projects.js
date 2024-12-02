@@ -32,17 +32,17 @@ const Projects = () => {
         </header>
 
         <div className="main">
-          <ul className="cards ">
+          <ul className="cards-p ">
             {data2.projects.map((item, index) => (
               <Link
                 key={item.id}
                 href={`/projects/${item.id}`}
                 data-aos="fade-up"
                 data-aos-duration="200"
-                className="cards_item  duration-200 ease-in"
+                className="cards_item-p  duration-200 ease-in"
               >
-                <div className="card">
-                  <div className="card_image">
+                <div className="card-p">
+                  <div className="card_image-p">
                     <Image
                       width={640}
                       height={700}
@@ -52,12 +52,12 @@ const Projects = () => {
                       loading="lazy"
                     />
                   </div>
-                  <div className="card_content">
-                    <h2 className="card_title"> {item.attributes.title}</h2>
-                    <p className="card_text">
-                      {item.attributes.subtitle.slice(0, 70)}...
+                  <div className="card_content-p">
+                    <h2 className="card_title-p"> {item.attributes.title}</h2>
+                    <p className="card_text-p">
+                      {item.attributes.subtitle.slice(0, 38)}...
                     </p>
-                    <button className="btn card_btn">Read More</button>
+                    <button className="btn-p card_btn-p">Read More</button>
                   </div>
                 </div>
               </Link>
