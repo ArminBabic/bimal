@@ -53,7 +53,10 @@ const Projects = () => {
                     />
                   </div>
                   <div className="card_content-p">
-                    <h2 className="card_title-p"> {item.attributes.title}</h2>
+                    <h2 className="card_title-p">
+                      {" "}
+                      {item.attributes.title.slice(0, 44)}...
+                    </h2>
                     <p className="card_text-p">
                       {item.attributes.subtitle.slice(0, 38)}...
                     </p>

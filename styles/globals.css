@@ -223,7 +223,7 @@ img {
   display: block;
   width: 100%;
   cursor: pointer;
-  border: 1px solid #2b9b1f;
+  border: 2px solid #2b9b1f;
   background: transparent;
   transition: all 0.3s ease-in-out;
 }
