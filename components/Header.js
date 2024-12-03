@@ -100,7 +100,7 @@ function Header() {
             </li>
             <li className={!scrollNav ? "abc text-white" : "ab"}>
               <Link legacyBehavior href="/">
-                <a onClick={(e) => scrollTo(e, "qualityfeatures")}>Features</a>
+                <a onClick={(e) => scrollTo(e, "projects")}>Projects</a>
               </Link>
             </li>
 
@@ -210,9 +210,7 @@ function Header() {
                 className="headerLinkMobile text-[#303030] ab  cursor-pointer text-xl sm:text-2xl"
               >
                 <Link legacyBehavior href="/">
-                  <a onClick={(e) => scrollTo(e, "qualityfeatures")}>
-                    Features
-                  </a>
+                  <a onClick={(e) => scrollTo(e, "projects")}>Projects</a>
                 </Link>
               </li>
 

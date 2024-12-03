@@ -207,8 +207,9 @@ img {
   margin: 0 auto;
 }
 
-img {
+.img {
   height: auto;
+  max-height: 240px;
   max-width: 100%;
   vertical-align: middle;
 }

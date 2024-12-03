@@ -37,8 +37,8 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link legacyBehavior href="/#qualityfeatures">
-              <a>Features</a>
+            <Link legacyBehavior href="/#projects">
+              <a>Projects</a>
             </Link>
           </li>{" "}
           <li>

@@ -88,8 +88,8 @@ function Header() {
               </Link>
             </li>
             <li className={!scrollNav ? "ab " : "ab"}>
-              <Link legacyBehavior href="/#qualityfeatures">
-                <a>Features</a>
+              <Link legacyBehavior href="/#projects">
+                <a>Projects</a>
               </Link>
             </li>
 
@@ -205,8 +205,8 @@ function Header() {
               onClick={toggleHandler}
               className="headerLinkMobile text-[#303030] ab cursor-pointer xs:text-lg sm:text-xl"
             >
-              <Link legacyBehavior href="/#qualityfeatures">
-                <a>Features</a>
+              <Link legacyBehavior href="/#projects">
+                <a>Projects</a>
               </Link>
             </li>
 

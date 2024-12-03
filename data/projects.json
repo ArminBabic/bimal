@@ -15,7 +15,7 @@
         "contentC": "The seller stated that he would intend to sell all project(s).  ",
         "firstImage": "/assets/projectimages/project1.jpg",
         "contentD": "Status of permits:   ",
-        "contentE": "Property-legal relations have been resolved in the entire area – concession has been obtained on the state land, and provided in the land excerpts.The access road property-legal relations have been resolved",
+        "contentE": "Property-legal relations have been resolved in the entire area – concession has been obtained on the state land, and provided in the land excerpts.The access road property-legal relations have been resolved:",
         "contentG": "1) Basic consent - for the connection to the transmission grid. 2)Environmental permit. 3)Location permit. 4)Concession right. 5)Conditions for connection (the transmission grid is approx. 3 km away).  6)Energy permit. 7)The future steps is Construction permit.  ",
         "conclusion": "The seller requests to conclude an NDA (Confidentiality Agreement) with the potential buyer. The aforementioned NDA agreement does not represent any form of legally binding relationship regarding the purchase of the Project.  "
       }
@@ -30,12 +30,12 @@
         "author": "Armin Babic",
         "subtitle": "Solar plant project – west Herzegovina",
         "authorImage": "/assets/arminbg3.webp",
-        "contentA": "The project is planned for an output power of 73 MW, and the total installed power will be 88 MW. The estimated annual production is 104.3 GWh ",
+        "contentA": "The project is planned for an output power of 73 MW, and the total installed power will be 88 MW. The estimated annual production is 104.3 GWh. ",
         "contentB": "The price is 140.000 EUR per MW (AC), in the ready to build phase.",
         "contentC": "The seller stated that he would intend to sell entire project. ",
         "firstImage": "/assets/projectimages/project2.jpg",
         "contentD": "Status of permits: ",
-        "contentE": "Property-legal relations have been resolved in the entire area - the concession has been obtained on the state land, and provided in the land excerpts.The access road property-legal relations have been resolved;",
+        "contentE": "Property-legal relations have been resolved in the entire area - the concession has been obtained on the state land, and provided in the land excerpts.The access road property-legal relations have been resolved:",
         "contentG": "1) Basic consent - for the connection to the transmission grid. 2)Environmental permit. 3)Location permit. 4)Concession right. 5)Conditions for connection.  6)Energy permit. 7)The future steps are Construction permit.  ",
 
         "conclusion": "The seller requests to conclude an NDA (Confidentiality Agreement) with the potential buyer. The aforementioned NDA agreement does not represent any form of legally binding relationship regarding the purchase of the Project."
@@ -56,7 +56,7 @@
         "contentC": "The seller stated that he would intend to sell all project.",
         "firstImage": "/assets/projectimages/project6.jpg",
         "contentD": "Status of permits:",
-        "contentE": "Property-legal relations have been resolving – final stage.The access road property-legal relations have been resolved;",
+        "contentE": "Property-legal relations have been resolving – final stage.The access road property-legal relations have been resolved:",
         "contentG": "1) Basic consent - for the connection to the transmission grid. 2)Environmental permit. 3)Location permit. 4)Concession right. 5)Conditions for connection.  6)The request for energy permit is in the final stage of preparation. "
       }
     },
@@ -70,12 +70,12 @@
         "author": "Armin Babic",
         "subtitle": "Solar plant project – west of Bosnia and Herzegovina",
         "authorImage": "/assets/arminbg3.webp",
-        "contentA": "The project is planned for an output power of 120,5 MW, and the total installed power will be 136 MW. The estimated annual production is 202,5 GWh ",
+        "contentA": "The project is planned for an output power of 120,5 MW, and the total installed power will be 136 MW. The estimated annual production is 202,5 GWh. ",
         "contentB": "The price is 110-115.000 EUR per MW (AC), in the ready to build phase. ",
         "contentC": "The seller stated that he would intend to sell all project. ",
         "firstImage": "/assets/projectimages/project3.jpg",
         "contentD": "Status of permits:  ",
-        "contentE": "Property-legal relations have been resolved in the entire area - the concession has been obtained on the state land, and provided in the land excerpts. The access road property-legal relations have been resolved; ",
+        "contentE": "Property-legal relations have been resolved in the entire area - the concession has been obtained on the state land, and provided in the land excerpts. The access road property-legal relations have been resolved: ",
         "contentG": "1) Basic consent - for the connection to the transmission grid. 2)Environmental permit. 3)Location conditions 4)Concession right. 5)Conditions for connection.  6)The pre-PPA has been concluded. 7)The request for construction permit for the preparation works has been filed. ",
         "conclusion": "The seller requests to conclude an NDA (Confidentiality Agreement) with the potential buyer. The aforementioned NDA agreement does not represent any form of legally binding relationship regarding the purchase of the Project. "
       }
@@ -97,6 +97,101 @@
         "contentD": "Status of permits:  ",
         "contentE": "Property-legal relations have been resolved in the entire area - the land is private.The access road property-legal relations have been resolved:",
         "contentG": "1)Environmental permit-not needed. 2)Location permit. 3)Concession right - not needed (private land).  4)Conditions for connection.  5)Energy permit not needed 6)The future step is Construction permit (the main design documentation is preparing). "
+      }
+    },
+    {
+      "id": "solar-plant-e",
+      "attributes": {
+        "mainImage": "/assets/projectimages/project5.jpg",
+        "title": "SOLAR PLANT, WITH THE CAPACITY OF 30 MW (AC) FEDERATION OF BOSNIA AND HERZEGOVINA ",
+        "image": "/assets/projectimages/project5.jpg",
+        "category": "Green Energy",
+        "author": "Armin Babic",
+        "subtitle": "Solar plant project – middle of Bosnia and Herzegovina",
+        "authorImage": "/assets/arminbg3.webp",
+        "contentA": "The project is planned for an output power of 30,5 MW and the total installed power will be 36,8 MW. The estimated annual production 38,9 GWh. The project is developed on the private land plots, which will be integral part of the purchase price. Please note: the developer is who is well-known developer who has built and commissioned plenty of solar plants. ",
+        "contentB": "The expected price is 1.050.000 EUR per MW (AC), in the phase built and commissioned. (the seller is insisting to build the project and to sell it.) ",
+        "contentC": "The seller stated that he would intend to sell all project(s).",
+        "firstImage": "/assets/projectimages/project5.jpg",
+        "contentD": "Status of permits:  ",
+        "contentE": "Property-legal relations have been resolved in the entire area – private land.The access road property-legal relations have been resolved:",
+        "contentG": "1)The land is purchased, in the area provided for construction (also, there is still capacity on the transmission grid). 2)The Seller is intending the conclude the project purchase agreement. The most important contractual provisions are: i) advance payment of 20-30% of the purchase price, with the bank guarantee from the seller, in the mentioned advance payment amount, ii) deadline for the project development, construction and commissioning is 18-20 months, depending on the agreement with the potential buyer."
+      }
+    },
+    {
+      "id": "wind-farm-b",
+      "attributes": {
+        "mainImage": "/assets/projectimages/project7.jpg",
+        "title": "WIND FARM – WITH THE CAPACITY OF 150 MW (AC) FEDERATION OF BOSNIA AND HERZEGOVINA",
+        "image": "/assets/projectimages/project7.jpg",
+        "category": "Green Energy",
+        "author": "Armin Babic",
+        "subtitle": "Wind farm project – middle of Bosnia and Herzegovina",
+        "authorImage": "/assets/arminbg3.webp",
+        "contentA": "The project is planned for an output power of 150 MW and estimated annual production is 606 GWh. The project is developed on the state land. ",
+        "contentB": " The expected price will be discussed.",
+        "contentC": "The seller stated that he would intend to sell part of project (e.g. 40-60% or to have joint-venture).",
+        "firstImage": "/assets/projectimages/project7.jpg",
+        "contentD": "Status of permits:",
+        "contentE": "Property-legal relations have been resolving – final stage.The access road property-legal relations have been resolved:",
+        "contentG": "1)Basic consent - for the connection to the transmission grid. 2)Environmental permit. 3)Location conditions. 4)Concession right. 5)Conditions for connection. 6)Energy permit."
+      }
+    },
+    {
+      "id": "solar-plant-f",
+      "attributes": {
+        "mainImage": "/assets/projectimages/project8.jpg",
+        "title": "SOLAR PLANT – WITH THE CAPACITY OF 8 MW (AC) FEDERATION OF BOSNIA AND HERZEGOVINA ",
+        "image": "/assets/projectimages/project8.jpg",
+        "category": "Green Energy",
+        "author": "Armin Babic",
+        "subtitle": "Solar plant project – west Bosnia and Herzegovina",
+        "authorImage": "/assets/arminbg3.webp",
+        "contentA": "The project is planned for an output power of 8 MW and the total installed power will be 11 MW. The estimated annual production 12,6 GWh. The project is developed on the state land.  ",
+        "contentB": "The expected price is 250.000 EUR per MW (AC), in the ready to build phase.",
+        "contentC": "The seller stated that he would intend to sell all project.",
+        "firstImage": "/assets/projectimages/project8.jpg",
+        "contentD": "Status of permits:  ",
+        "contentE": "Property-legal relations have been resolved in the entire area - the land is state owned.The access road property-legal relations have been resolved:",
+        "contentG": "1)Environmental permit. 2)Location permit. 3)Concession right. 4)Preliminary electro-energy consent. 5)Construction consent."
+      }
+    },
+    {
+      "id": "solar-plant-g",
+      "attributes": {
+        "mainImage": "/assets/projectimages/project9.jpg",
+        "title": "SOLAR PLANT – WITH THE CAPACITY OF 8 MW (AC) REPUBLIC OF SRPSKA",
+        "image": "/assets/projectimages/project9.jpg",
+        "category": "Green Energy",
+        "author": "Armin Babic",
+        "subtitle": "Solar plant project – west Bosnia and Herzegovina",
+        "authorImage": "/assets/arminbg3.webp",
+        "contentA": "The project is planned for an output power of 8 MW. The estimated annual production 11,7 GWh. The project is developed on the private land.  ",
+        "contentB": "The expected price will be discussed.",
+        "contentC": "The seller stated that he would intend to sell all project.",
+        "firstImage": "/assets/projectimages/project9.jpg",
+        "contentD": "Status of permits:  ",
+        "contentE": "Property-legal relations have been resolved in the entire area - the land is privately owned.The access road property-legal relations have been resolved:",
+        "contentG": "1)Environmental permit. 2)Location permit. 3)Concession right. 4)Electro-energy consent. 5)Construction consent has been preparing."
+      }
+    },
+    {
+      "id": "solar-plant-h",
+      "attributes": {
+        "mainImage": "/assets/projectimages/project10.jpg",
+        "title": "SOLAR PLANT – WITH THE CAPACITY OF 1,7 MW (AC) REPUBLIC OF SRPSKA",
+        "image": "/assets/projectimages/project10.jpg",
+        "category": "Green Energy",
+        "author": "Armin Babic",
+        "subtitle": "Solar plant project – west Bosnia and Herzegovina",
+        "authorImage": "/assets/arminbg3.webp",
+        "contentA": "The project is planned for an output power of 1,7 MW. The estimated annual production 2,37 GWh. The project is developed on the private land.  ",
+        "contentB": "The expected price is 200.000 EUR per MW (AC), in the ready to build phase.",
+
+        "firstImage": "/assets/projectimages/project10.jpg",
+        "contentD": "Status of permits:  ",
+        "contentE": "Property-legal relations have been resolved in the entire area - the land is privately owned.The access road property-legal relations have been resolved:",
+        "contentG": "1)Environmental permit. 2)Location permit. 3)Electro-energy consent. 4)Construction permit."
       }
     }
   ]
