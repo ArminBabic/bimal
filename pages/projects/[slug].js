@@ -4,6 +4,7 @@ import data1 from "../../data/projects.json";
 import PrivacyHeader from "../../components/PrivacyHeader";
 import Footer from "../../components/Footer";
 import ProjectsContent from "../../components/ProjectsPage/ProjectsContent";
+import Contact from "../../components/Contact";
 const Listings = ({ data, list }) => {
   const recentListings = list.slice(0, 4);
 
@@ -14,6 +15,10 @@ const Listings = ({ data, list }) => {
       <div className="flex flex-col items-center">
         <ProjectsContent projects={data[0]} />
       </div>
+      <div className="w-full max-w-screen-lg mx-auto my-4">
+        <Contact />
+      </div>
+
       <Footer />
     </div>
   );

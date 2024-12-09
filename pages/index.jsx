@@ -42,7 +42,7 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
 Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the Future of Sustainable Development and Profitable Investments in the Western Balkan"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/n.webp" />
+        <link rel="icon" href="/logo2.png" />
         {/* share image */}
         <meta property="og:url" content="https://www.nantechsolution.com/" />
         <meta property="og:type" content="website" />
