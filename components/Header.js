@@ -93,20 +93,20 @@ function Header() {
               <div onClick={(e) => scrollToTop()}>Home</div>
             </li>
 
-            <li className={!scrollNav ? "abc text-white " : "ab"}>
-              <Link legacyBehavior href="/">
-                <a onClick={(e) => scrollTo(e, "services")}>Services</a>
-              </Link>
-            </li>
             <li className={!scrollNav ? "abc text-white" : "ab"}>
               <Link legacyBehavior href="/">
                 <a onClick={(e) => scrollTo(e, "projects")}>Projects</a>
               </Link>
             </li>
+            <li className={!scrollNav ? "abc text-white " : "ab"}>
+              <Link legacyBehavior href="/">
+                <a onClick={(e) => scrollTo(e, "faq")}>Faq</a>
+              </Link>
+            </li>
 
             <li className={!scrollNav ? "abc text-white" : "ab"}>
               <Link legacyBehavior href="/">
-                <a onClick={(e) => scrollTo(e, "contact")}>Contact</a>
+                <a onClick={(e) => scrollTo(e, "blog")}>Blog </a>
               </Link>
             </li>
           </ul>
@@ -121,7 +121,7 @@ function Header() {
                 : "text-secondary hover:bg-secondary rounded-[30px] border-2 py-3 px-12 border-secondary hover:text-white ease-in duration-300"
             }
           >
-            Get Started
+            Contact Us
           </button>
         </div>
 

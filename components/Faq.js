@@ -11,7 +11,10 @@ export default function Faq() {
     }
   };
   return (
-    <div className="w-full flex flex-col items-center my-8 pt-8 gap-8 ">
+    <div
+      id="faq"
+      className="w-full flex flex-col items-center my-8 pt-8 gap-8 "
+    >
       <header className="w-full text-center ">
         <h2 className="text-lg xl:text-xl text-secondary w-full font-md tracking-wide mb-2">
           FAQ

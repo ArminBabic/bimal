@@ -6,9 +6,12 @@ import { BsPeopleFill } from "react-icons/bs";
 
 const Subscribe = () => {
   return (
-    <div className="w-full flex flex-col items-center my-8 px-3 gap-16">
+    <div
+      id="subscribe"
+      className="w-full flex flex-col items-center my-16 px-3 gap-16"
+    >
       {" "}
-      <section className="w-full max-w-[1420px] pt-1  px-2 xs:px-6 sm:px-16 xl:px-2 2xl:px-16  gap-6 xl:gap-10 2xl:gap-48 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  place-items-center ">
+      {/*  <section className="w-full max-w-[1420px] pt-1  px-2 xs:px-6 sm:px-16 xl:px-2 2xl:px-16  gap-6 xl:gap-10 2xl:gap-48 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  place-items-center ">
         <article
           className="max-w-[250px] xs:w-[380px] sm:w-[256px] md:w-[310px]
             xl:w-[250px] h-[256px] 2xl:w-[17.5rem]   flex flex-col gap-4 justify-center items-center text-center 
@@ -55,7 +58,7 @@ const Subscribe = () => {
             outside the box.
           </p>
         </article>
-      </section>
+      </section> */}
       <section className="bg-secondary w-full max-w-[1380px] flex flex-col gap-6 items-center rounded-xl py-12 sm:py-20 px-4">
         <h4 className=" text-2xl sm:text-4xl font-semibold  text-white text-center max-w-[540px]">
           Join our community

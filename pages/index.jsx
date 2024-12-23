@@ -75,19 +75,19 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
         {" "}
         <Header />
         <Banner />
-        <Services />
+        <Projects />
+        <Faq />
+        <Subscribe />
+        {/*  <Services /> */}
         <AboutUs />
         <CoreFeatures />
         <OurServices />
-        <QualityFeatures />
-        <HowItWorks />
-        <Projects />
+        {/* <QualityFeatures />
+        <HowItWorks /> */}
         {/*    <ServicesNews/> */}
         {/*  <Team /> */}
         {/*   <Testimonials /> */}
         <Contact />
-        <Subscribe />
-        <Faq />
         <Footer />
       </main>
     </>

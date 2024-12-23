@@ -179,10 +179,10 @@ const Trending = () => {
                 Profitable Investments in the Western Balkan
               </h2>
               <button
-                onClick={(e) => scrollTo(e, "contact")}
+                onClick={(e) => scrollTo(e, "subscribe")}
                 className="text-white bg-secondary rounded-[30px] border-2 py-2 sm:py-3 px-8 sm:px-12 hover:bg-transparent hover:text-white hover:border-white border-secondary ease-in duration-300"
               >
-                Get Started
+                Subscribe
               </button>
             </section>
           </div>
