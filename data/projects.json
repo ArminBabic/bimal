@@ -2,6 +2,7 @@
   "projects": [
     {
       "id": "solar-plant-a",
+      "category": "res",
       "attributes": {
         "mainImage": "/assets/projectimages/project1.jpg",
         "title": "SOLAR PLANT – WITH THE CAPACITY OF 52 MW (AC) FEDERATION OF BOSNIA AND HERZEGOVINA ",
@@ -16,12 +17,20 @@
         "firstImage": "/assets/projectimages/project1.jpg",
         "contentD": "Status of permits:   ",
         "contentE": "Property-legal relations have been resolved in the entire area – concession has been obtained on the state land, and provided in the land excerpts.The access road property-legal relations have been resolved:",
-        "contentG": "1) Basic consent - for the connection to the transmission grid. 2)Environmental permit. 3)Location permit. 4)Concession right. 5)Conditions for connection (the transmission grid is approx. 3 km away).  6)Energy permit. 7)The future steps is Construction permit.  ",
+
+        "content1": "1) Basic consent - for the connection to the transmission grid.",
+        "content2": "2)Environmental permit.",
+        "content3": "3)Location permit.",
+        "content4": " 4)Concession right.",
+        "content5": " 5)Conditions for connection (the transmission grid is approx. 3 km away). ",
+        "content6": "  6)Energy permit. 7)The future steps is Construction permit. ",
+
         "conclusion": "The seller requests to conclude an NDA (Confidentiality Agreement) with the potential buyer. The aforementioned NDA agreement does not represent any form of legally binding relationship regarding the purchase of the Project.  "
       }
     },
     {
       "id": "solar-plant-b",
+      "category": "res",
       "attributes": {
         "mainImage": "/assets/projectimages/project2.jpg",
         "title": "SOLAR PLANT – WITH THE CAPACITY OF 73 MW (AC) FEDERATION OF BOSNIA AND HERZEGOVINA ",
@@ -43,6 +52,7 @@
     },
     {
       "id": "wind-farm-a",
+      "category": "res",
       "attributes": {
         "mainImage": "/assets/projectimages/project6.jpg",
         "title": "WIND FARM – WITH THE CAPACITY OF 80 MW (AC) FEDERATION OF BOSNIA AND HERZEGOVINA",
@@ -62,6 +72,7 @@
     },
     {
       "id": "solar-plant-c",
+      "category": "res",
       "attributes": {
         "mainImage": "/assets/projectimages/project3.jpg",
         "title": "SOLAR PLANT – WITH THE CAPACITY OF 120,5 MW (AC) REPUBLIC OF SRPSKA ",
@@ -82,6 +93,7 @@
     },
     {
       "id": "solar-plant-d",
+      "category": "res",
       "attributes": {
         "mainImage": "/assets/projectimages/project4.jpg",
         "title": "SOLAR PLANT, WITH THE CAPACITY OF 14 MW (AC) FEDERATION OF BOSNIA AND HERZEGOVINA ",
@@ -101,6 +113,7 @@
     },
     {
       "id": "solar-plant-e",
+      "category": "res",
       "attributes": {
         "mainImage": "/assets/projectimages/project5.jpg",
         "title": "SOLAR PLANT, WITH THE CAPACITY OF 30 MW (AC) FEDERATION OF BOSNIA AND HERZEGOVINA ",
@@ -120,6 +133,7 @@
     },
     {
       "id": "wind-farm-b",
+      "category": "res",
       "attributes": {
         "mainImage": "/assets/projectimages/project7.jpg",
         "title": "WIND FARM – WITH THE CAPACITY OF 150 MW (AC) FEDERATION OF BOSNIA AND HERZEGOVINA",
@@ -139,6 +153,7 @@
     },
     {
       "id": "solar-plant-f",
+      "category": "investment",
       "attributes": {
         "mainImage": "/assets/projectimages/project8.jpg",
         "title": "SOLAR PLANT – WITH THE CAPACITY OF 8 MW (AC) FEDERATION OF BOSNIA AND HERZEGOVINA ",
@@ -158,6 +173,8 @@
     },
     {
       "id": "solar-plant-g",
+      "category": "investment",
+
       "attributes": {
         "mainImage": "/assets/projectimages/project9.jpg",
         "title": "SOLAR PLANT – WITH THE CAPACITY OF 8 MW (AC) REPUBLIC OF SRPSKA",
@@ -177,6 +194,7 @@
     },
     {
       "id": "solar-plant-h",
+      "category": "investment",
       "attributes": {
         "mainImage": "/assets/projectimages/project10.jpg",
         "title": "SOLAR PLANT – WITH THE CAPACITY OF 1,7 MW (AC) REPUBLIC OF SRPSKA",

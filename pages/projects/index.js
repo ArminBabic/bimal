@@ -28,38 +28,42 @@ function index() {
 
           <div className="main">
             <ul className="cards-p ">
-              {data2.projects.map((item, index) => (
-                <Link
-                  key={item.id}
-                  href={`/projects/${item.id}`}
-                  data-aos="fade-up"
-                  data-aos-duration="200"
-                  className="cards_item-p  duration-200 ease-in"
-                >
-                  <div className="card-p">
-                    <div className="card_image-p">
-                      <Image
-                        width={640}
-                        height={500}
-                        className="img"
-                        src={item.attributes.mainImage}
-                        alt="image"
-                        loading="lazy"
-                      />
+              {
+                data2.projects.map((item, index) => (
+                  <Link
+                    key={item.id}
+                    href={`/projects/${item.id}`}
+                    data-aos="fade-up"
+                    data-aos-duration="200"
+                    className="cards_item-p  duration-200 ease-in"
+                  >
+                    <div className="card-p">
+                      <div className="card_image-p">
+                        <Image
+                          width={640}
+                          height={500}
+                          className="img"
+                          src={item.attributes.mainImage}
+                          alt="image"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div className="card_content-p">
+                        <h2 className="card_title-p">
+                          {item.attributes.title.slice(0, 44)}...
+                        </h2>
+                        <p className="card_text-p">
+                          {item.attributes.subtitle.slice(0, 38)}...
+                        </p>
+                        <button className="btn-p card_btn-p">Read More</button>
+                      </div>
                     </div>
-                    <div className="card_content-p">
-                      <h2 className="card_title-p">
-                        {" "}
-                        {item.attributes.title.slice(0, 44)}...
-                      </h2>
-                      <p className="card_text-p">
-                        {item.attributes.subtitle.slice(0, 38)}...
-                      </p>
-                      <button className="btn-p card_btn-p">Read More</button>
-                    </div>
-                  </div>
-                </Link>
-              ))}
+                  </Link>
+                ))
+                /* .filter((item) => {
+                  return console.log(item);
+                }) */
+              }
             </ul>
           </div>
         </section>

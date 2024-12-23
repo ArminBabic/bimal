@@ -21,7 +21,7 @@ const ProjectsContent = ({ projects }: any) => {
             >
               {projects.attributes.category}
             </a>
-            <h2 className="text-4xl font-bold text-gray-100 leading-tight">
+            <h2 className="text-xl lg:text-4xl font-bold text-gray-100 leading-tight">
               {projects.attributes.title}
             </h2>
           </div>
@@ -36,7 +36,7 @@ const ProjectsContent = ({ projects }: any) => {
             {projects.attributes.contentC}
           </p>
 
-          <div className="relative w-full h-[24rem] z-0 object-cover mb-6 ">
+          {/*   <div className="relative w-full h-[24rem] z-0 object-cover mb-6 ">
             <Image
               src={projects.attributes.firstImage}
               className="rounded-lg"
@@ -44,14 +44,32 @@ const ProjectsContent = ({ projects }: any) => {
               alt="projects-image"
             />
           </div>
-
+ */}
           <p className="pb-6">{projects.attributes.contentD}</p>
 
           <p className="pb-6">{projects.attributes.contentE}</p>
           <p className="pb-6">{projects.attributes.contentF}</p>
-          <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
-            {projects.attributes.contentG}
-          </p>
+          <div className="flex flex-col w-full">
+            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+              {projects.attributes.content1}
+            </p>{" "}
+            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+              {projects.attributes.content2}
+            </p>{" "}
+            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+              {projects.attributes.content3}
+            </p>{" "}
+            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+              {projects.attributes.content4}
+            </p>{" "}
+            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+              {projects.attributes.content5}
+            </p>{" "}
+            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+              {projects.attributes.content6}
+            </p>
+          </div>
+
           <p className="pb-6">{projects.attributes.conclusion}</p>
         </div>
       </main>
