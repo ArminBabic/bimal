@@ -80,8 +80,8 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
         <Subscribe />
         {/*  <Services /> */}
         <AboutUs />
-        <CoreFeatures />
-        <OurServices />
+        {/*  <CoreFeatures />
+        <OurServices /> */}
         {/* <QualityFeatures />
         <HowItWorks /> */}
         {/*    <ServicesNews/> */}

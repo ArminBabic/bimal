@@ -32,15 +32,15 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link legacyBehavior href="/#services">
-              <a>Services</a>
-            </Link>
-          </li>
-          <li>
             <Link legacyBehavior href="/#projects">
               <a>Projects</a>
             </Link>
           </li>{" "}
+          <li>
+            <Link legacyBehavior href="/#faq">
+              <a>Faq</a>
+            </Link>
+          </li>
           <li>
             <Link legacyBehavior href="/#contact">
               <a>Contact</a>

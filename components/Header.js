@@ -198,19 +198,27 @@ function Header() {
 
               <li
                 onClick={toggleHandler}
-                className="headerLinkMobile text-[#303030]   ab  cursor-pointer text-xl sm:text-2xl"
+                className="headerLinkMobile text-[#303030] ab  cursor-pointer text-xl sm:text-2xl"
               >
                 <Link legacyBehavior href="/">
-                  <a onClick={(e) => scrollTo(e, "services")}>Services</a>
+                  <a onClick={(e) => scrollTo(e, "projects")}>Projects</a>
                 </Link>
               </li>
 
               <li
                 onClick={toggleHandler}
-                className="headerLinkMobile text-[#303030] ab  cursor-pointer text-xl sm:text-2xl"
+                className="headerLinkMobile text-[#303030]   ab  cursor-pointer text-xl sm:text-2xl"
               >
                 <Link legacyBehavior href="/">
-                  <a onClick={(e) => scrollTo(e, "projects")}>Projects</a>
+                  <a onClick={(e) => scrollTo(e, "faq")}>Faq</a>
+                </Link>
+              </li>
+              <li
+                onClick={toggleHandler}
+                className="headerLinkMobile text-[#303030]   ab  cursor-pointer text-xl sm:text-2xl"
+              >
+                <Link legacyBehavior href="/">
+                  <a onClick={(e) => scrollTo(e, "blog")}>Blog</a>
                 </Link>
               </li>
 

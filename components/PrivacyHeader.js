@@ -83,19 +83,20 @@ function Header() {
             </li>
 
             <li className={!scrollNav ? "ab " : "ab"}>
-              <Link legacyBehavior href="/#services">
-                <a>Services</a>
-              </Link>
-            </li>
-            <li className={!scrollNav ? "ab " : "ab"}>
               <Link legacyBehavior href="/#projects">
                 <a>Projects</a>
               </Link>
             </li>
 
             <li className={!scrollNav ? "ab " : "ab"}>
-              <Link legacyBehavior href="/#contact">
-                <a>Contact</a>
+              <Link legacyBehavior href="/#faq">
+                <a>Faq</a>
+              </Link>
+            </li>
+
+            <li className={!scrollNav ? "ab " : "ab"}>
+              <Link legacyBehavior href="/#blog">
+                <a>Blog</a>
               </Link>
             </li>
           </ul>
@@ -111,7 +112,7 @@ function Header() {
             }
           >
             <Link legacyBehavior href="/#contact">
-              <a>Get Started</a>
+              <a>Contact Us</a>
             </Link>
           </button>
         </div>
@@ -178,7 +179,7 @@ function Header() {
           </div>
           <div className=" flex items-center justify-center ">
             <p className="text-[#303030] font-semibold  text-center text-base xs:text-xl  py-6 mt-8 border-b border-gray-700 w-full xs:w-[90%]">
-              Web development £ Services
+              Empowering Your Investments
             </p>
           </div>
 
@@ -194,15 +195,6 @@ function Header() {
 
             <li
               onClick={toggleHandler}
-              className="headerLinkMobile text-[#303030]   ab  cursor-pointer xs:text-lg sm:text-xl"
-            >
-              <Link legacyBehavior href="/#services">
-                <a>Services</a>
-              </Link>
-            </li>
-
-            <li
-              onClick={toggleHandler}
               className="headerLinkMobile text-[#303030] ab cursor-pointer xs:text-lg sm:text-xl"
             >
               <Link legacyBehavior href="/#projects">
@@ -212,10 +204,28 @@ function Header() {
 
             <li
               onClick={toggleHandler}
+              className="headerLinkMobile text-[#303030]   ab  cursor-pointer xs:text-lg sm:text-xl"
+            >
+              <Link legacyBehavior href="/#faq">
+                <a>Faq</a>
+              </Link>
+            </li>
+
+            <li
+              onClick={toggleHandler}
+              className="headerLinkMobile text-[#303030]   ab  cursor-pointer xs:text-lg sm:text-xl"
+            >
+              <Link legacyBehavior href="/#blog">
+                <a>Blog</a>
+              </Link>
+            </li>
+
+            <li
+              onClick={toggleHandler}
               className="headerLinkMobile text-[#303030] ab   cursor-pointer xs:text-lg sm:text-xl"
             >
               <Link legacyBehavior href="/#contact">
-                <a>Contacta</a>
+                <a>Contact</a>
               </Link>
             </li>
           </ul>
