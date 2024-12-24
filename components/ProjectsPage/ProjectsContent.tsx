@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { FaCheck } from "react-icons/fa";
+
 const ProjectsContent = ({ projects }: any) => {
   return (
     <div className="max-w-screen-lg mx-auto ">
@@ -21,7 +23,7 @@ const ProjectsContent = ({ projects }: any) => {
             >
               {projects.attributes.category}
             </a>
-            <h2 className="text-xl lg:text-4xl font-bold text-gray-100 leading-tight">
+            <h2 className="xs:text-xl lg:text-4xl font-bold text-gray-100 leading-tight">
               {projects.attributes.title}
             </h2>
           </div>
@@ -50,23 +52,51 @@ const ProjectsContent = ({ projects }: any) => {
           <p className="pb-6">{projects.attributes.contentE}</p>
           <p className="pb-6">{projects.attributes.contentF}</p>
           <div className="flex flex-col w-full">
-            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+            <p className="flex items-center gap-3  mb-6 italic rounded">
+              <FaCheck className="w-6 h-5 text-secondary" />
               {projects.attributes.content1}
             </p>{" "}
-            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+            <p className="flex items-center gap-3  mb-6 italic rounded">
+              <FaCheck className="w-6 h-5 text-secondary" />{" "}
               {projects.attributes.content2}
             </p>{" "}
-            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+            <p className="flex items-center gap-3  mb-6 italic rounded">
+              <FaCheck className="w-6 h-5 text-secondary" />{" "}
               {projects.attributes.content3}
             </p>{" "}
-            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+            <p className="flex items-center gap-3  mb-6 italic rounded">
+              <FaCheck className="w-6 h-5 text-secondary" />
               {projects.attributes.content4}
             </p>{" "}
-            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+            <p
+              className={
+                projects.attributes.content5
+                  ? "flex  items-center gap-3  mb-6 italic rounded"
+                  : "hidden"
+              }
+            >
+              <FaCheck className="w-6 h-5 text-secondary" />
               {projects.attributes.content5}
             </p>{" "}
-            <p className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+            <p
+              className={
+                projects.attributes.content6
+                  ? "flex  items-center gap-3  mb-6 italic rounded"
+                  : "hidden"
+              }
+            >
+              <FaCheck className="w-6 h-5 text-secondary" />{" "}
               {projects.attributes.content6}
+            </p>
+            <p
+              className={
+                projects.attributes.content7
+                  ? "flex  items-center gap-3  mb-6 italic rounded"
+                  : "hidden"
+              }
+            >
+              <FaCheck className="w-6 h-5 text-secondary" />{" "}
+              {projects.attributes.content7}
             </p>
           </div>
 

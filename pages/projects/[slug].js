@@ -15,7 +15,7 @@ const Listings = ({ data, list }) => {
       <div className="flex flex-col items-center">
         <ProjectsContent projects={data[0]} />
       </div>
-      <div className="w-full max-w-screen-lg mx-auto my-4">
+      <div className="w-full max-w-[1024px] mx-auto my-4">
         <Contact />
       </div>
 

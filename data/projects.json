@@ -23,7 +23,8 @@
         "content3": "3)Location permit.",
         "content4": " 4)Concession right.",
         "content5": " 5)Conditions for connection (the transmission grid is approx. 3 km away). ",
-        "content6": "  6)Energy permit. 7)The future steps is Construction permit. ",
+        "content6": "  6)Energy permit. ",
+        "content7": "7)The future steps is Construction permit. ",
 
         "conclusion": "The seller requests to conclude an NDA (Confidentiality Agreement) with the potential buyer. The aforementioned NDA agreement does not represent any form of legally binding relationship regarding the purchase of the Project.  "
       }
@@ -45,8 +46,13 @@
         "firstImage": "/assets/projectimages/project2.jpg",
         "contentD": "Status of permits: ",
         "contentE": "Property-legal relations have been resolved in the entire area - the concession has been obtained on the state land, and provided in the land excerpts.The access road property-legal relations have been resolved:",
-        "contentG": "1) Basic consent - for the connection to the transmission grid. 2)Environmental permit. 3)Location permit. 4)Concession right. 5)Conditions for connection.  6)Energy permit. 7)The future steps are Construction permit.  ",
-
+        "content1": "1) Basic consent - for the connection to the transmission grid.",
+        "content2": "2)Environmental permit.",
+        "content3": "3)Location permit.",
+        "content4": " 4)Concession right.",
+        "content5": " 5)Conditions for connection.",
+        "content6": "  6)Energy permit. ",
+        "content7": "7)The future steps is Construction permit. ",
         "conclusion": "The seller requests to conclude an NDA (Confidentiality Agreement) with the potential buyer. The aforementioned NDA agreement does not represent any form of legally binding relationship regarding the purchase of the Project."
       }
     },
@@ -67,7 +73,12 @@
         "firstImage": "/assets/projectimages/project6.jpg",
         "contentD": "Status of permits:",
         "contentE": "Property-legal relations have been resolving – final stage.The access road property-legal relations have been resolved:",
-        "contentG": "1) Basic consent - for the connection to the transmission grid. 2)Environmental permit. 3)Location permit. 4)Concession right. 5)Conditions for connection.  6)The request for energy permit is in the final stage of preparation. "
+        "content1": "1) Basic consent - for the connection to the transmission grid.",
+        "content2": "2)Environmental permit.",
+        "content3": "3)Location permit.",
+        "content4": " 4)Concession right.",
+        "content5": " 5)Conditions for connection.",
+        "content6": "   6)The request for energy permit is in the final stage of preparation. "
       }
     },
     {
@@ -87,7 +98,14 @@
         "firstImage": "/assets/projectimages/project3.jpg",
         "contentD": "Status of permits:  ",
         "contentE": "Property-legal relations have been resolved in the entire area - the concession has been obtained on the state land, and provided in the land excerpts. The access road property-legal relations have been resolved: ",
-        "contentG": "1) Basic consent - for the connection to the transmission grid. 2)Environmental permit. 3)Location conditions 4)Concession right. 5)Conditions for connection.  6)The pre-PPA has been concluded. 7)The request for construction permit for the preparation works has been filed. ",
+        "contentG": " ",
+        "content1": "1) Basic consent - for the connection to the transmission grid.",
+        "content2": "2)Environmental permit.",
+        "content3": "3)Location conditions.",
+        "content4": " 4)Concession right.",
+        "content5": " 5)Conditions for connection.",
+        "content6": "  6)The pre-PPA has been concluded. ",
+        "content7": "7)The request for construction permit for the preparation works has been filed. ",
         "conclusion": "The seller requests to conclude an NDA (Confidentiality Agreement) with the potential buyer. The aforementioned NDA agreement does not represent any form of legally binding relationship regarding the purchase of the Project. "
       }
     },
@@ -108,7 +126,13 @@
         "firstImage": "/assets/projectimages/project4.jpg",
         "contentD": "Status of permits:  ",
         "contentE": "Property-legal relations have been resolved in the entire area - the land is private.The access road property-legal relations have been resolved:",
-        "contentG": "1)Environmental permit-not needed. 2)Location permit. 3)Concession right - not needed (private land).  4)Conditions for connection.  5)Energy permit not needed 6)The future step is Construction permit (the main design documentation is preparing). "
+
+        "content1": "1)Environmental permit-not needed.",
+        "content2": " 2)Location permit.",
+        "content3": "3)Concession right - not needed (private land). ",
+        "content4": "  4)Conditions for connection.",
+        "content5": "   5)Energy permit not needed.",
+        "content6": "  6)The future step is Construction permit (the main design documentation is preparing). "
       }
     },
     {
@@ -128,7 +152,11 @@
         "firstImage": "/assets/projectimages/project5.jpg",
         "contentD": "Status of permits:  ",
         "contentE": "Property-legal relations have been resolved in the entire area – private land.The access road property-legal relations have been resolved:",
-        "contentG": "1)The land is purchased, in the area provided for construction (also, there is still capacity on the transmission grid). 2)The Seller is intending the conclude the project purchase agreement. The most important contractual provisions are: i) advance payment of 20-30% of the purchase price, with the bank guarantee from the seller, in the mentioned advance payment amount, ii) deadline for the project development, construction and commissioning is 18-20 months, depending on the agreement with the potential buyer."
+
+        "content1": "1)The land is purchased, in the area provided for construction (also, there is still capacity on the transmission grid). ",
+        "content2": " 2)The Seller is intending the conclude the project purchase agreement. The most important contractual provisions are: ",
+        "content3": "a) advance payment of 20-30% of the purchase price, with the bank guarantee from the seller, in the mentioned advance payment amount,",
+        "content4": "  b) deadline for the project development, construction and commissioning is 18-20 months, depending on the agreement with the potential buyer."
       }
     },
     {
@@ -148,7 +176,13 @@
         "firstImage": "/assets/projectimages/project7.jpg",
         "contentD": "Status of permits:",
         "contentE": "Property-legal relations have been resolving – final stage.The access road property-legal relations have been resolved:",
-        "contentG": "1)Basic consent - for the connection to the transmission grid. 2)Environmental permit. 3)Location conditions. 4)Concession right. 5)Conditions for connection. 6)Energy permit."
+        "contentG": "  ",
+        "content1": "1)Basic consent - for the connection to the transmission grid. ",
+        "content2": " 2)Environmental permit.",
+        "content3": "3)Location conditions. ",
+        "content4": "4)Concession right.",
+        "content5": " 5)Conditions for connection.",
+        "content6": " 6)Energy permit."
       }
     },
     {
@@ -168,7 +202,12 @@
         "firstImage": "/assets/projectimages/project8.jpg",
         "contentD": "Status of permits:  ",
         "contentE": "Property-legal relations have been resolved in the entire area - the land is state owned.The access road property-legal relations have been resolved:",
-        "contentG": "1)Environmental permit. 2)Location permit. 3)Concession right. 4)Preliminary electro-energy consent. 5)Construction consent."
+        "contentG": "  ",
+        "content1": "1)Environmental permit.",
+        "content2": " 2)Location permit.",
+        "content3": "3)Concession right. ",
+        "content4": "4)Preliminary electro-energy consent.",
+        "content5": "   5)Construction consent."
       }
     },
     {
@@ -189,7 +228,12 @@
         "firstImage": "/assets/projectimages/project9.jpg",
         "contentD": "Status of permits:  ",
         "contentE": "Property-legal relations have been resolved in the entire area - the land is privately owned.The access road property-legal relations have been resolved:",
-        "contentG": "1)Environmental permit. 2)Location permit. 3)Concession right. 4)Electro-energy consent. 5)Construction consent has been preparing."
+        "contentG": "   ",
+        "content1": "1)Environmental permit.",
+        "content2": " 2)Location permit.",
+        "content3": "3)Concession right. ",
+        "content4": "4)Electro-energy consent.",
+        "content5": "5)Construction consent has been preparing."
       }
     },
     {
@@ -209,7 +253,11 @@
         "firstImage": "/assets/projectimages/project10.jpg",
         "contentD": "Status of permits:  ",
         "contentE": "Property-legal relations have been resolved in the entire area - the land is privately owned.The access road property-legal relations have been resolved:",
-        "contentG": "1)Environmental permit. 2)Location permit. 3)Electro-energy consent. 4)Construction permit."
+
+        "content1": "1)Environmental permit.",
+        "content2": " 2)Location permit.",
+        "content3": "3)Electro-energy consent. ",
+        "content4": "4)Construction permit."
       }
     }
   ]
