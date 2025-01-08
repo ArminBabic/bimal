@@ -53,7 +53,7 @@ const Footer = () => {
           </li>
         </ul>
         <p className="text-center text-sm xs:text-base pt-5">
-          Copyright © 2023 All rights reserved Project Pro
+          Copyright © 2025 All rights reserved Project Pro
         </p>
       </section>
     </div>
