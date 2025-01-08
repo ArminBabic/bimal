@@ -51,54 +51,68 @@ const ProjectsContent = ({ projects }: any) => {
 
           <p className="pb-6">{projects.attributes.contentE}</p>
           <p className="pb-6">{projects.attributes.contentF}</p>
-          <div className="flex flex-col w-full">
-            <p className="flex items-center gap-3  mb-6 italic rounded">
-              <FaCheck className="w-6 h-5 text-secondary" />
-              {projects.attributes.content1}
-            </p>{" "}
-            <p className="flex items-center gap-3  mb-6 italic rounded">
-              <FaCheck className="w-6 h-5 text-secondary" />{" "}
-              {projects.attributes.content2}
-            </p>{" "}
-            <p className="flex items-center gap-3  mb-6 italic rounded">
-              <FaCheck className="w-6 h-5 text-secondary" />{" "}
-              {projects.attributes.content3}
-            </p>{" "}
-            <p className="flex items-center gap-3  mb-6 italic rounded">
-              <FaCheck className="w-6 h-5 text-secondary" />
-              {projects.attributes.content4}
-            </p>{" "}
-            <p
+          <section className="flex flex-col w-full">
+            <article className="flex items-center gap-3  mb-6 italic rounded">
+              <div>
+                <FaCheck className="w-6 h-5 text-secondary" />
+              </div>
+              <p> {projects.attributes.content1} </p>
+            </article>
+            <article className="flex items-center gap-3  mb-6 italic rounded">
+              <div>
+                <FaCheck className="w-6 h-5 text-secondary" />
+              </div>
+              <p> {projects.attributes.content2} </p>
+            </article>
+            <article className="flex items-center gap-3  mb-6 italic rounded">
+              <div>
+                <FaCheck className="w-6 h-5 text-secondary" />
+              </div>
+              <p> {projects.attributes.content3} </p>
+            </article>
+            <article className="flex items-center gap-3  mb-6 italic rounded">
+              <div>
+                <FaCheck className="w-6 h-5 text-secondary" />
+              </div>
+              <p> {projects.attributes.content4} </p>
+            </article>
+            <article
               className={
                 projects.attributes.content5
                   ? "flex  items-center gap-3  mb-6 italic rounded"
                   : "hidden"
               }
             >
-              <FaCheck className="w-6 h-5 text-secondary" />
-              {projects.attributes.content5}
-            </p>{" "}
-            <p
+              <div>
+                <FaCheck className="w-6 h-5 text-secondary" />
+              </div>
+              <p> {projects.attributes.content5} </p>
+            </article>
+            <article
               className={
                 projects.attributes.content6
                   ? "flex  items-center gap-3  mb-6 italic rounded"
                   : "hidden"
               }
             >
-              <FaCheck className="w-6 h-5 text-secondary" />{" "}
-              {projects.attributes.content6}
-            </p>
-            <p
+              <div>
+                <FaCheck className="w-6 h-5 text-secondary" />
+              </div>
+              <p> {projects.attributes.content6} </p>
+            </article>
+            <article
               className={
                 projects.attributes.content7
                   ? "flex  items-center gap-3  mb-6 italic rounded"
                   : "hidden"
               }
             >
-              <FaCheck className="w-6 h-5 text-secondary" />{" "}
-              {projects.attributes.content7}
-            </p>
-          </div>
+              <div>
+                <FaCheck className="w-6 h-5 text-secondary" />
+              </div>
+              <p> {projects.attributes.content7} </p>
+            </article>
+          </section>
 
           <p className="pb-6">{projects.attributes.conclusion}</p>
         </div>

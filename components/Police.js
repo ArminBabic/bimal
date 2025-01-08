@@ -9,11 +9,11 @@ function Police() {
           PRIVACY POLICY
         </h1>
         <div className=" my-12 w-full ">
-          <h3 className="font-bold text-2xl pb-4">ProProject</h3>
+          <h3 className="font-bold text-2xl pb-4">Project Pro</h3>
 
           <div className="text-[#676a6a] flex flex-col gap-5 ">
             <p>Trg Mladih, Brcko, Bosnia and Herzegovinia</p>
-            <p>
+            {/* <p>
               <span className="font-bold">phone:</span> +387 61 917 739
             </p>
             <p>
@@ -27,7 +27,7 @@ function Police() {
               Armin Babic
             </p>
             <span className="font-bold">Design and Development:</span>
-            nanTech Solution
+            nanTech Solution */}
           </div>
           <h3 className="font-bold text-2xl mt-6 mb-2">COPYRIGHT</h3>
           <p className="text-[#676a6a]">
