@@ -77,7 +77,7 @@ function index() {
           </div>
           {/* investment projects */}
 
-          <div className="main">
+          <div id="investment" className="main">
             <p className=" text-2xl  font-semibold  text-headings text-center my-4">
               Investment Projects
             </p>

@@ -44,6 +44,9 @@ function Header() {
     });
   };
 
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpenF, setIsOpenF] = useState(false);
+
   return (
     <div
       className={
@@ -93,20 +96,64 @@ function Header() {
               <div onClick={(e) => scrollToTop()}>Home</div>
             </li>
 
-            <li className={!scrollNav ? "abc text-white" : "ab"}>
-              <Link legacyBehavior href="/">
-                <a onClick={(e) => scrollTo(e, "projects")}>Projects</a>
-              </Link>
-            </li>
-            <li className={!scrollNav ? "abc text-white " : "ab"}>
+            <li className={`relative ${!scrollNav ? "abc text-white" : "ab"}`} onMouseEnter={() => setIsOpen(true)}
+      onMouseLeave={() => setIsOpen(false)}>
+      <div className="cursor-pointer">
+        <a onClick={(e) => { 
+          
+       
+        }}>Projects</a>
+      </div>
+      {isOpen && (
+        <ul className="absolute left-0 pt-4 w-20 bg-transparent  ">
+          <li className={`relative ${!scrollNav ? "abc text-white" : "ab"}`}>
+            <Link legacyBehavior href="/projects">
+              <a className="text-white ">RES</a>
+            </Link>
+          </li>
+          <li className={`relative ${!scrollNav ? "abc text-white" : "ab"}`}>
+            <Link legacyBehavior href="/projects#investment">
+              <a>Investments</a>
+            </Link>
+          </li>
+        </ul>
+      )}
+    </li>
+
+
+
+    <li className={`relative ${!scrollNav ? "abc text-white" : "ab"}`} onMouseEnter={() => setIsOpenF(true)}
+      onMouseLeave={() => setIsOpenF(false)}>
+      <div className="cursor-pointer">
+        <a onClick={(e) => { 
+          
+       
+        }}>Investor Resources</a>
+      </div>
+      {isOpenF && (
+        <ul className="absolute left-0 pt-4 w-20 bg-transparent  ">
+          <li className={`relative ${!scrollNav ? "abc text-white" : "ab"}`}>
+            <Link legacyBehavior href="/projects">
+              <a className="text-white ">In focus</a>
+            </Link>
+          </li>
+          <li className={`relative ${!scrollNav ? "abc text-white" : "ab"}`}>
+            <Link legacyBehavior href="/projects#investment">
+              <a>FAQ</a>
+            </Link>
+          </li>
+        </ul>
+      )}
+    </li>
+           {/*  <li className={!scrollNav ? "abc text-white " : "ab"}>
               <Link legacyBehavior href="/">
                 <a onClick={(e) => scrollTo(e, "faq")}>Faq</a>
               </Link>
-            </li>
+            </li> */}
 
             <li className={!scrollNav ? "abc text-white" : "ab"}>
               <Link legacyBehavior href="/">
-                <a onClick={(e) => scrollTo(e, "blog")}>Blog </a>
+                <a onClick={(e) => scrollTo(e, "contact")}>Contact </a>
               </Link>
             </li>
           </ul>
