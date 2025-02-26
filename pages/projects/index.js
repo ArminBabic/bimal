@@ -7,6 +7,13 @@ import data2 from "../../data/projects.json";
 
 import PrivacyHeader from "../../components/PrivacyHeader";
 import Footer from "../../components/Footer";
+import {
+  FaLeaves,
+  FaSolarPanel,
+  FaBatteryFull,
+  FaDollarSign,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 
 function index() {
   return (
@@ -54,11 +61,21 @@ function index() {
                               />
                             </div>
                             <div className="card_content-p">
-                              <h2 className="card_title-p">
-                                {item.attributes.title.slice(0, 37)}...
-                              </h2>
-                              <p className="card_text-p">
-                                {item.attributes.contentB.slice(0, 29)}...
+                              <p className="card_text-p  flex items-center gap-2">
+                                <FaSolarPanel className="text-yellow-500" />{" "}
+                                {item.attributes.titleA}
+                              </p>
+                              <p className="card_text-p flex items-center gap-2">
+                                <FaBatteryFull className="text-secondary" />
+                                {item.attributes.capacityA}
+                              </p>
+                              <p className="card_text-p flex items-center gap-2">
+                                <FaMapMarkerAlt className="text-red-500" />
+                                {item.attributes.locationA}
+                              </p>
+                              <p className="card_text-p flex items-center gap-2">
+                                <FaDollarSign className="text-blue-500" />
+                                {item.attributes.priceA}
                               </p>
                               <button className="btn-p card_btn-p">
                                 Read More
@@ -108,11 +125,21 @@ function index() {
                               />
                             </div>
                             <div className="card_content-p">
-                              <h2 className="card_title-p">
-                                {item.attributes.title.slice(0, 37)}...
-                              </h2>
-                              <p className="card_text-p">
-                                {item.attributes.contentB.slice(0, 29)}...
+                              <p className="card_text-p  flex items-center gap-2">
+                                <FaSolarPanel className="text-yellow-500" />{" "}
+                                {item.attributes.titleA}
+                              </p>
+                              <p className="card_text-p flex items-center gap-2">
+                                <FaBatteryFull className="text-secondary" />
+                                {item.attributes.capacityA}
+                              </p>
+                              <p className="card_text-p flex items-center gap-2">
+                                <FaMapMarkerAlt className="text-red-500" />
+                                {item.attributes.locationA}
+                              </p>
+                              <p className="card_text-p flex items-center gap-2">
+                                <FaDollarSign className="text-blue-500" />
+                                {item.attributes.priceA}
                               </p>
                               <button className="btn-p card_btn-p">
                                 Read More

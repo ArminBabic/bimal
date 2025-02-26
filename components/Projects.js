@@ -4,7 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 import data2 from "../data/projects.json";
-import { FaSolarPanel, FaBatteryFull, FaDollarSign,FaMapMarkerAlt  } from "react-icons/fa";
+import {
+  FaLeaves,
+  FaSolarPanel,
+  FaBatteryFull,
+  FaDollarSign,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 import image1 from "../public/assets/solar5.jpg";
 
 const Projects = () => {
@@ -37,32 +43,34 @@ const Projects = () => {
             </Link>
           </div>
         </header>
-        <div className="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200">
-      <Image 
-        src={image1 }
-        alt="Solar Plant" 
-        width={400} 
-        height={250} 
-        className="w-full h-48 object-cover"
-      />
-      <div className="p-4">
-        <h2 className="text-xl font-semibold flex items-center gap-2">
-          <FaSolarPanel className="text-yellow-500" /> Solar Plant
-        </h2>
-        <p className="text-gray-600 flex items-center gap-2 mt-2">
-          <FaBatteryFull className="text-green-500" /> CAPACITY OF 52 MW (AC)
-        </p>
-        <p className="text-gray-600 flex items-center gap-2 mt-2">
-          <FaMapMarkerAlt className="text-red-500" /> FEDERATION OF BOSNIA AND HERZEGOVINA
-        </p>
-        <p className="text-gray-800 font-bold flex items-center gap-2 mt-2">
-          <FaDollarSign className="text-blue-500" /> 142.000 EUR per MW (AC)
-        </p>
-        <button className="mt-4 w-full bg-secondary text-white py-2 rounded-lg hover:bg-blue-600 transition">
-          Read More
-        </button>
-      </div>
-    </div>
+        {/*   <div className="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden border border-gray-200">
+          <Image
+            src={image1}
+            alt="Solar Plant"
+            width={400}
+            height={250}
+            className="w-full h-48 object-cover"
+          />
+          <div className="p-4">
+            <h2 className="text-xl font-semibold flex items-center gap-2">
+              <FaSolarPanel className="text-yellow-500" /> Solar Plant
+            </h2>
+            <p className="text-gray-600 flex items-center gap-2 mt-2">
+              <FaBatteryFull className="text-green-500" /> CAPACITY OF 52 MW
+              (AC)
+            </p>
+            <p className="text-gray-600 flex items-center gap-2 mt-2">
+              <FaMapMarkerAlt className="text-red-500" /> FEDERATION OF BOSNIA
+              AND HERZEGOVINA
+            </p>
+            <p className="text-gray-800 font-bold flex items-center gap-2 mt-2">
+              <FaDollarSign className="text-blue-500" /> 142.000 EUR per MW (AC)
+            </p>
+            <button className="mt-4 w-full bg-secondary text-white py-2 rounded-lg hover:bg-blue-600 transition">
+              Read More
+            </button>
+          </div>
+        </div> */}
 
         <main className="main-p">
           <ul className="cards-p ">
@@ -87,12 +95,21 @@ const Projects = () => {
                       />
                     </div>
                     <div className="card_content-p">
-                      <h2 className="card_title-p">
-               
-                        {item.attributes.title.slice(0, 40)}...
-                      </h2>
-                      <p className="card_text-p">
-                        {item.attributes.contentB.slice(0, 44)}...
+                      <p className="card_text-p  flex items-center gap-2">
+                        <FaSolarPanel className="text-yellow-500" />{" "}
+                        {item.attributes.titleA}
+                      </p>
+                      <p className="card_text-p flex items-center gap-2">
+                        <FaBatteryFull className="text-secondary" />
+                        {item.attributes.capacityA}
+                      </p>
+                      <p className="card_text-p flex items-center gap-2">
+                        <FaMapMarkerAlt className="text-red-500" />
+                        {item.attributes.locationA}
+                      </p>
+                      <p className="card_text-p flex items-center gap-2">
+                        <FaDollarSign className="text-blue-500" />
+                        {item.attributes.priceA}
                       </p>
                       <button className="btn-p card_btn-p">Read More</button>
                     </div>
