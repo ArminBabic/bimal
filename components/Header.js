@@ -98,30 +98,21 @@ function Header() {
 
             <li
               className={`relative ${!scrollNav ? "abc text-white" : "ab"}`}
-              onMouseEnter={() => setIsOpen(true)}
-              onMouseLeave={() => setIsOpen(false)}
+              onClick={() => setIsOpen(!isOpen)}
             >
               <div className="cursor-pointer">
                 <a onClick={(e) => {}}>Projects</a>
               </div>
               {isOpen && (
-                <ul className="absolute left-0 pt-4 w-20 bg-transparent">
-                  <li
-                    className={`relative ${
-                      !scrollNav ? "abc text-white" : "ab"
-                    }`}
-                  >
+                <ul className="absolute  mx-auto left-0 mt-2 w-[6.5rem] bg-white rounded-lg shadow-2xl  transition-all duration-200 flex flex-col  px-1 py-2 border-2 border-gray-100">
+                  <li className={`relative ${!scrollNav ? "ab py-2" : "ab"}`}>
                     <Link legacyBehavior href="/projects">
-                      <a className="text-white ">RES</a>
+                      <a className="text-white py-2 ">RES</a>
                     </Link>
                   </li>
-                  <li
-                    className={`relative ${
-                      !scrollNav ? "abc text-white" : "ab"
-                    }`}
-                  >
-                    <Link legacyBehavior href="/projects#investment">
-                      <a>Investments</a>
+                  <li className={`relative ${!scrollNav ? "ab py-2" : "ab"}`}>
+                    <Link legacyBehavior href="/projects">
+                      <a className="text-white ">Investment</a>
                     </Link>
                   </li>
                 </ul>
@@ -130,30 +121,21 @@ function Header() {
 
             <li
               className={`relative ${!scrollNav ? "abc text-white" : "ab"}`}
-              onMouseEnter={() => setIsOpenF(true)}
-              onMouseLeave={() => setIsOpenF(false)}
+              onClick={() => setIsOpenF(!isOpenF)}
             >
               <div className="cursor-pointer">
                 <a onClick={(e) => {}}>Investor Resources</a>
               </div>
               {isOpenF && (
-                <ul className="absolute left-0 pt-4 w-20 bg-transparent  ">
-                  <li
-                    className={`relative ${
-                      !scrollNav ? "abc text-white" : "ab"
-                    }`}
-                  >
+                <ul className="absolute  mx-auto left-0 mt-2 w-[6.5rem] bg-white rounded-lg shadow-2xl  transition-all duration-200 flex flex-col  px-1 py-2 border-2 border-gray-100">
+                  <li className={`relative ${!scrollNav ? "ab py-2" : "ab"}`}>
                     <Link legacyBehavior href="/projects">
-                      <a className="text-white ">In focus</a>
+                      <a className="text-white py-2 ">In Focus</a>
                     </Link>
                   </li>
-                  <li
-                    className={`relative ${
-                      !scrollNav ? "abc text-white" : "ab"
-                    }`}
-                  >
-                    <Link legacyBehavior href="/projects#investment">
-                      <a>FAQ</a>
+                  <li className={`relative ${!scrollNav ? "ab py-2" : "ab"}`}>
+                    <Link legacyBehavior href="/projects">
+                      <a className="text-white ">FAQ</a>
                     </Link>
                   </li>
                 </ul>
@@ -182,7 +164,7 @@ function Header() {
                 : "text-secondary hover:bg-secondary rounded-[30px] border-2 py-3 px-12 border-secondary hover:text-white ease-in duration-300"
             }
           >
-            Contact Us
+            Get Started
           </button>
         </div>
 

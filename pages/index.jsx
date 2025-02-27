@@ -14,8 +14,7 @@ import QualityFeatures from "../components/QualityFeatures";
 import CoreFeatures from "../components/CoreFeatures";
 import HowItWorks from "../components/HowItWorks";
 import Projects from "../components/Projects";
-import Team from "../components/Team";
-import Testimonials from "../components/Testimonials";
+
 import Subscribe from "../components/Subscribe";
 import Contact from "../components/Contact";
 import Faq from "../components/Faq";
