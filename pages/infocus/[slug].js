@@ -1,9 +1,9 @@
 import React from "react";
 
-import data1 from "../../data/services.json";
+import data1 from "../../data/infocus.json";
 import PrivacyHeader from "../../components/PrivacyHeader";
 import Footer from "../../components/Footer";
-import ServicesContent from "../../components/ServicesPage/ServicesContent";
+import InFocusContent from "../../components/InFocusPage/InFocusContent";
 const Listings = ({ data, list }) => {
   const recentListings = list.slice(0, 4);
 
@@ -12,7 +12,7 @@ const Listings = ({ data, list }) => {
       <PrivacyHeader />
 
       <div className="flex flex-col items-center">
-        <ServicesContent services={data[0]} />
+        <InFocusContent infocus={data[0]} />
       </div>
       <Footer />
     </div>
@@ -20,7 +20,7 @@ const Listings = ({ data, list }) => {
 };
 
 export async function getStaticPaths({ params, locale }) {
-  const data = data1.services;
+  const data = data1.infocus;
 
   return {
     paths: data.map((listing) => ({
@@ -33,11 +33,11 @@ export async function getStaticPaths({ params, locale }) {
 }
 
 export async function getStaticProps({ locale, params }) {
-  const data = data1.services.filter((item) => item.id == params.slug);
+  const data = data1.infocus.filter((item) => item.id == params.slug);
 
   //recent listings
 
-  const list = data1.services;
+  const list = data1.infocus;
 
   //markdown a details
 

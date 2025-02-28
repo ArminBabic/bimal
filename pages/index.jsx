@@ -6,7 +6,7 @@ import styles from "@/styles/Home.module.css";
 import Banner from "../components/Banner";
 
 import Header from "../components/Header";
-import Services from "../components/Services";
+import InFocus from "../components/InFocus";
 import AboutUs from "../components/AboutUs";
 
 import OurServices from "../components/OurServices";
@@ -75,9 +75,9 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
         <Header />
         <Banner />
         <Projects />
+        <InFocus />
         <Faq />
         <Subscribe />
-        {/*  <Services /> */}
         <AboutUs />
         {/*  <CoreFeatures />
         <OurServices /> */}
