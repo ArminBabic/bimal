@@ -147,7 +147,7 @@ const about = () => {
               <div className="max-w-[30rem] text-sm xs:text-base md:text-sm lg:text-base leading-7">
                 <p className="leading-7">
                   {" "}
-                  <strong>Why Choose Us?</strong>
+                  <strong className="text-secondary">Why Choose Us?</strong>
                   <br />
                   Our strong local presence and deep understanding of the Balkan
                   market are key reasons investors trust us to manage their
