@@ -3,9 +3,9 @@
     {
       "id": "The-best-place-to-invest-in-renewable-energy",
       "attributes": {
-        "mainImage": "/assets/solar5.jpg",
+        "mainImage": "/assets/blog1.jpg",
         "title": "The best place to invest in renewable energy",
-        "image": "/assets/solar5.jpg",
+        "image": "/assets/blog1.jpg",
         "category": "Green Energy",
         "author": "Armin Babic",
         "subtitle": "",
@@ -25,9 +25,9 @@
     {
       "id": "Future-ESG-trends-in-Bosnia-and-Herzegovina",
       "attributes": {
-        "mainImage": "/assets/wind2.jpg",
+        "mainImage": "/assets/erer.jpg",
         "title": "Future ESG trends in Bosnia and Herzegovina",
-        "image": "/assets/wind2.jpg",
+        "image": "/assets/erer.jpg",
         "category": "Green Energy",
         "author": "Armin Babic",
         "subtitle": " ",
@@ -47,9 +47,9 @@
     {
       "id": "Explore-investment-opportunities-in-Bosnia-and-Herzegovina",
       "attributes": {
-        "mainImage": "/assets/hotel.jpg",
+        "mainImage": "/assets/blog3.jpg",
         "title": "Explore investment opportunities in Bosnia and Herzegovina",
-        "image": "/assets/hotel.jpg",
+        "image": "/assets/blog3.jpg",
         "category": "Investment",
         "author": "Armin Babic",
         "subtitle": "",
