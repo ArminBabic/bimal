@@ -10,7 +10,10 @@ const AboutUs = () => {
     element?.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <main className="w-full flex flex-col justify-center gap-8 items-center">
+    <main
+      id="about"
+      className="w-full flex flex-col justify-center gap-8 items-center"
+    >
       <section className="flex flex-col gap-3 md:gap-0 items-center md:flex-row md:justify-center pt-6 w-full max-w-[780px] lg:max-w-[1124px]  px-2 2xl:max-w-[1250px] 2xl:px-0">
         <article
           data-aos="fade-down"

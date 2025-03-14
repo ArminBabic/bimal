@@ -96,6 +96,12 @@ function Header() {
               <div onClick={(e) => scrollToTop()}>Home</div>
             </li>
 
+            <li className={!scrollNav ? "abc text-white" : "ab"}>
+              <Link legacyBehavior href="/">
+                <a onClick={(e) => scrollTo(e, "about")}>About Us </a>
+              </Link>
+            </li>
+
             <li
               className={`relative ${!scrollNav ? "abc text-white" : "ab"}`}
               onClick={() => setIsOpen(!isOpen)}
