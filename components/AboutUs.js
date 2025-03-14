@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import coreImg from "../public/assets/aboutus.jpg";
+import coreImg from "../public/assets/team2.jpg";
 import Link from "next/link";
 
 const AboutUs = () => {
