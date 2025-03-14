@@ -104,20 +104,21 @@ function Header() {
 
             <li
               className={`relative ${!scrollNav ? "abc text-white" : "ab"}`}
+              onMouseLeave={() => setIsOpen(false)}
               onClick={() => setIsOpen(!isOpen)}
             >
               <div className="cursor-pointer">
                 <a onClick={(e) => {}}>Projects</a>
               </div>
               {isOpen && (
-                <ul className="absolute  mx-auto left-0 mt-2 w-[6.5rem] bg-white rounded-lg shadow-2xl  transition-all duration-200 flex flex-col  px-1 py-2 border-2 border-gray-100">
+                <ul className="absolute  mx-auto left-0 top-8 w-[6.5rem] bg-white rounded-lg shadow-2xl  transition-all duration-200 flex flex-col  px-1 py-2 border-2 border-gray-100">
                   <li className={`relative ${!scrollNav ? "ab py-2" : "ab"}`}>
                     <Link legacyBehavior href="/projects">
                       <a className="text-white py-2 ">RES</a>
                     </Link>
                   </li>
                   <li className={`relative ${!scrollNav ? "ab py-2" : "ab"}`}>
-                    <Link legacyBehavior href="/projects">
+                    <Link legacyBehavior href="/projects#investment">
                       <a className="text-white ">Investment</a>
                     </Link>
                   </li>
@@ -128,20 +129,21 @@ function Header() {
             <li
               className={`relative ${!scrollNav ? "abc text-white" : "ab"}`}
               onClick={() => setIsOpenF(!isOpenF)}
+              onMouseLeave={() => setIsOpenF(false)}
             >
               <div className="cursor-pointer">
                 <a onClick={(e) => {}}>Investor Resources</a>
               </div>
               {isOpenF && (
-                <ul className="absolute  mx-auto left-0 mt-2 w-[6.5rem] bg-white rounded-lg shadow-2xl  transition-all duration-200 flex flex-col  px-1 py-2 border-2 border-gray-100">
-                  <li className={`relative ${!scrollNav ? "ab py-2" : "ab"}`}>
-                    <Link legacyBehavior href="/projects">
-                      <a className="text-white py-2 ">In Focus</a>
+                <ul className="absolute  mx-auto left-0 top-8 w-[6.5rem] bg-white rounded-md shadow-2xl  transition-all duration-200 flex flex-col  px-1 py-2 border-2 border-gray-100">
+                  <li className={!scrollNav ? "ab py-2" : "ab"}>
+                    <Link legacyBehavior href="/">
+                      <a onClick={(e) => scrollTo(e, "infocus")}>In Focus </a>
                     </Link>
                   </li>
-                  <li className={`relative ${!scrollNav ? "ab py-2" : "ab"}`}>
-                    <Link legacyBehavior href="/projects">
-                      <a className="text-white ">FAQ</a>
+                  <li className={!scrollNav ? "ab py-2" : "ab"}>
+                    <Link legacyBehavior href="/">
+                      <a onClick={(e) => scrollTo(e, "faq")}>FAQ </a>
                     </Link>
                   </li>
                 </ul>
