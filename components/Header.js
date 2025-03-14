@@ -47,6 +47,9 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenF, setIsOpenF] = useState(false);
 
+  const [isOpenMobile, setIsOpenMobile] = useState(false);
+  const [isOpenFMobile, setIsOpenFMobile] = useState(false);
+
   return (
     <div
       className={
@@ -252,24 +255,78 @@ function Header() {
                 className="headerLinkMobile text-[#303030] ab  cursor-pointer text-xl sm:text-2xl"
               >
                 <Link legacyBehavior href="/">
-                  <a onClick={(e) => scrollTo(e, "projects")}>Projects</a>
+                  <a onClick={(e) => scrollTo(e, "about")}>About Us</a>
+                </Link>
+              </li>
+
+              {/* mobile projects ropdwon */}
+              <li
+                onMouseLeave={() => setIsOpenMobile(false)}
+                onClick={() => setIsOpenMobile(!isOpenMobile)}
+                className="headerLinkMobile text-[#303030] ab  cursor-pointer text-xl sm:text-2xl"
+              >
+                <Link legacyBehavior href="/">
+                  <a>Projects</a>
+                </Link>
+              </li>
+              <li
+                onClick={toggleHandler}
+                className={` ${
+                  isOpenMobile
+                    ? "ab headerLinkMobile text-[#303030] flex  cursor-pointer text-xl sm:text-2xl transition-all ease-in-out"
+                    : "hidden"
+                }`}
+              >
+                <Link legacyBehavior href="/projects">
+                  <a>RES</a>
+                </Link>
+              </li>
+              <li
+                onClick={toggleHandler}
+                className={` ${
+                  isOpenMobile
+                    ? "ab headerLinkMobile text-[#303030] flex  cursor-pointer text-xl sm:text-2xl transition-all ease-in-out"
+                    : "hidden"
+                }`}
+              >
+                <Link legacyBehavior href="/projects#investment">
+                  <a>Investment</a>
+                </Link>
+              </li>
+
+              {/* investment resource mobile */}
+              <li
+                onMouseLeave={() => setIsOpenFMobile(false)}
+                onClick={() => setIsOpenFMobile(!isOpenFMobile)}
+                className="headerLinkMobile text-[#303030] ab  cursor-pointer text-xl sm:text-2xl"
+              >
+                <Link legacyBehavior href="/">
+                  <a>Investor Resources</a>
                 </Link>
               </li>
 
               <li
                 onClick={toggleHandler}
-                className="headerLinkMobile text-[#303030]   ab  cursor-pointer text-xl sm:text-2xl"
+                className={` ${
+                  isOpenFMobile
+                    ? "ab headerLinkMobile text-[#303030] flex  cursor-pointer text-xl sm:text-2xl transition-all ease-in-out"
+                    : "hidden"
+                }`}
               >
                 <Link legacyBehavior href="/">
-                  <a onClick={(e) => scrollTo(e, "faq")}>Faq</a>
+                  <a onClick={(e) => scrollTo(e, "infocus")}>In Focus</a>
                 </Link>
               </li>
               <li
                 onClick={toggleHandler}
-                className="headerLinkMobile text-[#303030]   ab  cursor-pointer text-xl sm:text-2xl"
+                className={` ${
+                  isOpenFMobile
+                    ? "ab headerLinkMobile text-[#303030] flex  cursor-pointer text-xl sm:text-2xl transition-all ease-in-out"
+                    : "hidden"
+                }`}
               >
                 <Link legacyBehavior href="/">
-                  <a onClick={(e) => scrollTo(e, "blog")}>Blog</a>
+                  <a onClick={(e) => scrollTo(e, "faq")}>FAQ</a>
                 </Link>
               </li>
 
