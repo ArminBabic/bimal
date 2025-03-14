@@ -51,8 +51,8 @@ function Header() {
     <div
       className={
         !scrollNav
-          ? "w-full  flex justify-center bg-transparent   relative z-10"
-          : " w-full  flex justify-center shadow-2xl bg-white sticky top-0  z-50"
+          ? "w-full max-w-[1900px] mx-auto flex justify-center bg-transparent   relative z-10"
+          : " w-full max-w-[1900px] mx-auto flex justify-center shadow-2xl bg-white sticky top-0  z-50"
       }
     >
       <nav className="w-full  flex justify-between items-center  px-3 xs:px-6 sm:px-8 lg:px-16 ">
