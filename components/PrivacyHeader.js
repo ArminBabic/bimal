@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { AiOutlineClose, AiOutlineMail, AiFillYoutube } from "react-icons/ai";
 import { RiLinkedinFill } from "react-icons/ri";
-import { FaFacebook, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaEnvelope, FaInstagram, FaPhone } from "react-icons/fa";
 import logo from "../public/logo7.png";
 import logos from "../public/logo7.png";
 import mobilelogo from "../public/logo7.png";
@@ -14,6 +14,12 @@ function Header() {
   const [scrollNav, setScrollNav] = useState(false);
 
   const toggleHandler = () => setNav(!nav);
+
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpenF, setIsOpenF] = useState(false);
+
+  const [isOpenMobile, setIsOpenMobile] = useState(false);
+  const [isOpenFMobile, setIsOpenFMobile] = useState(false);
 
   /*  */
 
@@ -83,28 +89,63 @@ function Header() {
             </li>
 
             <li className={!scrollNav ? "ab " : "ab"}>
-              <Link legacyBehavior href="/#projects">
-                <a>Projects</a>
+              <Link legacyBehavior href="/#about">
+                <a>About Us</a>
               </Link>
             </li>
 
-            <li className={!scrollNav ? "ab " : "ab"}>
-              <Link legacyBehavior href="/#faq">
-                <a>Faq</a>
-              </Link>
+            <li
+              className={`relative z-50 ${!scrollNav ? "ab " : "ab"}`}
+              onMouseLeave={() => setIsOpen(false)}
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              <div className="cursor-pointer">
+                <a onClick={(e) => {}}>Projects</a>
+              </div>
+              {isOpen && (
+                <ul className="absolute  mx-auto left-0 top-8 w-[6.5rem] bg-white rounded-lg shadow-2xl  transition-all duration-200 flex flex-col  px-1 py-2 border-2 border-gray-100">
+                  <li className={`relative ${!scrollNav ? "ab py-2" : "ab"}`}>
+                    <Link legacyBehavior href="/projects">
+                      <a className="py-2 ">RES</a>
+                    </Link>
+                  </li>
+                  <li className={`relative ${!scrollNav ? "ab py-2" : "ab"}`}>
+                    <Link legacyBehavior href="/projects#investment">
+                      <a className="text-white ">Investment</a>
+                    </Link>
+                  </li>
+                </ul>
+              )}
             </li>
 
-            <li className={!scrollNav ? "ab " : "ab"}>
-              <Link legacyBehavior href="/#blog">
-                <a>Blog</a>
-              </Link>
+            <li
+              className={`relative z-50 ${!scrollNav ? "ab " : "ab"}`}
+              onClick={() => setIsOpenF(!isOpenF)}
+              onMouseLeave={() => setIsOpenF(false)}
+            >
+              <div className="cursor-pointer">
+                <a onClick={(e) => {}}>Investor Resources</a>
+              </div>
+              {isOpenF && (
+                <ul className="absolute  mx-auto left-0 top-8 w-[6.5rem] bg-white rounded-md shadow-2xl  transition-all duration-200 flex flex-col  px-1 py-2 border-2 border-gray-100">
+                  <li className={!scrollNav ? "ab py-2" : "ab"}>
+                    <Link legacyBehavior href="/#infocus">
+                      <a>In Focus</a>
+                    </Link>
+                  </li>
+                  <li className={!scrollNav ? "ab py-2" : "ab"}>
+                    <Link legacyBehavior href="/#faq">
+                      <a>FAQ</a>
+                    </Link>
+                  </li>
+                </ul>
+              )}
             </li>
           </ul>
         </div>
 
         <div className="hidden lg:block">
           <button
-            onClick={(e) => scrollTo(e, "contact")}
             className={
               !scrollNav
                 ? "text-secondary hover:bg-secondary rounded-[30px] border-2 py-3 px-12 border-secondary hover:text-white ease-in duration-300"
@@ -139,34 +180,30 @@ function Header() {
         <aside
           className={
             nav
-              ? "fixed top-0  left-0 w-full sm:w-[75%] h-screen home  overflow-scroll py-2 bg-gradient-to-b from-white to-[#deeeee] ease-in duration-500"
+              ? "fixed top-0  left-0 w-full sm:w-[75%] h-screen home  overflow-scroll  bg-gradient-to-b from-white to-[#deeeee] ease-in duration-500"
               : "fixed top-0  left-[-200%] overflow-scroll  ease-in duration-500"
           }
         >
           <div className="">
-            <div className="flex items-center justify-around w-full pt-4">
+            <div className="flex items-center justify-between px-10 w-full ">
               <div className="text-[#303030]">
-                <Link href="/">
+                <div className="cursor-pointer" onClick={(e) => scrollToTop()}>
                   <div
                     onClick={toggleHandler}
-                    className="sm:hidden relative w-[60px] h-[60px]"
+                    className="sm:hidden relative w-[50px] h-[50px]"
                   >
-                    <Image
-                      src={mobilelogo}
-                      alt="logo"
-                      fill
-                      placeholder="blur"
-                    />
+                    <Image src={logos} alt="logo" fill placeholder="blur" />
                   </div>
-                </Link>
-                <Link href="/">
+                </div>
+                <div onClick={(e) => scrollToTop()} className="cursor-pointer">
+                  {" "}
                   <div
                     onClick={toggleHandler}
-                    className=" hidden sm:block relative w-[50px] h-[50px] cursor-pointer"
+                    className=" hidden sm:block relative w-[46px] h-[46px] cursor-pointer"
                   >
-                    <Image src={logo} alt="logo" fill placeholder="blur" />
+                    <Image src={logos} alt="logo" fill placeholder="blur" />
                   </div>
-                </Link>
+                </div>
               </div>
 
               <div
@@ -177,101 +214,157 @@ function Header() {
               </div>
             </div>
           </div>
-          <div className=" flex items-center justify-center ">
-            <p className="text-[#303030] font-semibold  text-center text-base xs:text-xl  py-6 mt-8 border-b border-gray-700 w-full xs:w-[90%]">
-              Empowering Your Investments
-            </p>
-          </div>
 
-          <ul className=" flex flex-col justify-center gap-4 items-center py-12">
-            <li
-              onClick={toggleHandler}
-              className="headerLinkMobile text-[#303030]  ab  cursor-pointer xs:text-lg sm:text-xl"
-            >
-              <Link href="/" onClick={(e) => scrollToTop()}>
-                Home
-              </Link>
-            </li>
-
-            <li
-              onClick={toggleHandler}
-              className="headerLinkMobile text-[#303030] ab cursor-pointer xs:text-lg sm:text-xl"
-            >
-              <Link legacyBehavior href="/#projects">
-                <a>Projects</a>
-              </Link>
-            </li>
-
-            <li
-              onClick={toggleHandler}
-              className="headerLinkMobile text-[#303030]   ab  cursor-pointer xs:text-lg sm:text-xl"
-            >
-              <Link legacyBehavior href="/#faq">
-                <a>Faq</a>
-              </Link>
-            </li>
-
-            <li
-              onClick={toggleHandler}
-              className="headerLinkMobile text-[#303030]   ab  cursor-pointer xs:text-lg sm:text-xl"
-            >
-              <Link legacyBehavior href="/#blog">
-                <a>Blog</a>
-              </Link>
-            </li>
-
-            <li
-              onClick={toggleHandler}
-              className="headerLinkMobile text-[#303030] ab   cursor-pointer xs:text-lg sm:text-xl"
-            >
-              <Link legacyBehavior href="/#contact">
-                <a>Contact</a>
-              </Link>
-            </li>
-          </ul>
-
-          <div className="flex justify-center my-12  gap-8  absolute left-1/2 bottom-2 transform -translate-x-1/2 -translate-y-1/2 ">
-            <Link legacyBehavior href="https://www.linkedin.com">
-              <a target="_blank">
-                <RiLinkedinFill
-                  aria-label="Visit LinkedIn account"
-                  role="link"
-                  className="relative bg-white rounded-full  w-6 h-6 sm:h-8 sm:w-8 p-1 hover:scale-110 hover:text-white hover:bg-blue-500 cursor-pointer text-blue-400 ease-in duration-300 shadow-md shadow-gray-500"
-                />
-              </a>
-            </Link>
-            <Link legacyBehavior href="/">
-              <a
-                href="mailto:nantech.digital@gmail.com"
-                target="_blank "
-                rel="noreferrer"
+          <div className="flex flex-col gap-12 mt-6">
+            <div className=" flex items-center justify-center ">
+              <p className="text-headings font-semibold  text-center text-base xs:text-xl  py-6 mt-8 border-b border-gray-700 w-full xs:w-[90%]">
+                Empowering Your Investments
+              </p>
+            </div>
+            <ul className=" flex flex-col justify-center gap-4 items-center py-12">
+              <li
+                onClick={toggleHandler}
+                className="headerLinkMobile text-[#303030]  ab  cursor-pointer text-xl sm:text-2xl"
               >
-                <FaEnvelope
-                  aria-label="Send me email"
-                  role="link"
-                  className="relative bg-white rounded-full  w-6 h-6 sm:h-8 sm:w-8 p-1 hover:scale-110 hover:text-white hover:bg-red-600 cursor-pointer text-red-500 ease-in duration-300 shadow-md shadow-gray-500"
-                />
-              </a>
-            </Link>
+                <div onClick={(e) => scrollToTop()}>Home</div>
+              </li>
 
-            <Link legacyBehavior href="https://www.facebook.com/">
-              <a target="_blank">
-                <FaFacebook
-                  aria-label="Visit Facebook account"
-                  role="link"
-                  className="relative bg-white rounded-full  w-6 h-6 sm:h-8 sm:w-8 p-1 hover:scale-110 hover:text-white hover:bg-blue-500 cursor-pointer text-blue-400 ease-in duration-300 shadow-md shadow-gray-500"
-                />
-              </a>
-            </Link>
-            <Link legacyBehavior href="https://youtube.com">
-              <a target="_blank">
-                <AiFillYoutube
-                  aria-label="Visit LinkedIn account"
-                  role="link"
-                  className="relative bg-white rounded-full  w-6 h-6 sm:h-8 sm:w-8 p-1 hover:scale-110 hover:text-white hover:bg-red-600 cursor-pointer text-red-500 ease-in duration-300 shadow-md shadow-gray-500"
-                />
-              </a>
-            </Link>
+              <li
+                onClick={toggleHandler}
+                className="headerLinkMobile text-[#303030] ab  cursor-pointer text-xl sm:text-2xl"
+              >
+                <Link legacyBehavior href="/#about">
+                  <a>About Us</a>
+                </Link>
+              </li>
+
+              {/* mobile projects ropdwon */}
+              <li
+                onMouseLeave={() => setIsOpenMobile(false)}
+                onClick={() => setIsOpenMobile(!isOpenMobile)}
+                className="headerLinkMobile text-[#303030] ab  cursor-pointer text-xl sm:text-2xl"
+              >
+                <Link legacyBehavior href="/">
+                  <a>Projects</a>
+                </Link>
+              </li>
+              <li
+                onClick={toggleHandler}
+                className={` ${
+                  isOpenMobile
+                    ? "ab headerLinkMobile text-[#303030] flex  cursor-pointer text-xl sm:text-2xl transition-all ease-in-out"
+                    : "hidden"
+                }`}
+              >
+                <Link legacyBehavior href="/projects">
+                  <a>RES</a>
+                </Link>
+              </li>
+              <li
+                onClick={toggleHandler}
+                className={` ${
+                  isOpenMobile
+                    ? "ab headerLinkMobile text-[#303030] flex  cursor-pointer text-xl sm:text-2xl transition-all ease-in-out"
+                    : "hidden"
+                }`}
+              >
+                <Link legacyBehavior href="/projects#investment">
+                  <a>Investment</a>
+                </Link>
+              </li>
+
+              {/* investment resource mobile */}
+              <li
+                onMouseLeave={() => setIsOpenFMobile(false)}
+                onClick={() => setIsOpenFMobile(!isOpenFMobile)}
+                className="headerLinkMobile text-[#303030] ab  cursor-pointer text-xl sm:text-2xl"
+              >
+                <Link legacyBehavior href="/">
+                  <a>Investor Resources</a>
+                </Link>
+              </li>
+
+              <li
+                onClick={toggleHandler}
+                className={` ${
+                  isOpenFMobile
+                    ? "ab headerLinkMobile text-[#303030] flex  cursor-pointer text-xl sm:text-2xl transition-all ease-in-out"
+                    : "hidden"
+                }`}
+              >
+                <Link legacyBehavior href="/#infocus">
+                  <a>Investment</a>
+                </Link>
+              </li>
+              <li
+                onClick={toggleHandler}
+                className={` ${
+                  isOpenFMobile
+                    ? "ab headerLinkMobile text-[#303030] flex  cursor-pointer text-xl sm:text-2xl transition-all ease-in-out"
+                    : "hidden"
+                }`}
+              >
+                <Link legacyBehavior href="/#faq">
+                  <a>FAQ</a>
+                </Link>
+              </li>
+
+              <li
+                onClick={toggleHandler}
+                className="headerLinkMobile text-[#303030] ab   cursor-pointer text-xl sm:text-2xl"
+              >
+                <Link legacyBehavior href="/">
+                  <a onClick={(e) => scrollTo(e, "contact")}>Contact</a>
+                </Link>
+              </li>
+            </ul>
+
+            <div className="flex justify-center my-12  gap-8  absolute left-1/2 bottom-2 transform -translate-x-1/2 -translate-y-1/2 ">
+              <Link legacyBehavior href={`tel:38761917739`}>
+                <a target="_blank">
+                  <FaPhone
+                    aria-label="Visit LinkedIn account"
+                    role="link"
+                    className="relative bg-white rounded-full  w-6 h-6 sm:h-8 sm:w-8 p-1 hover:scale-110 hover:text-white hover:bg-blue-500 cursor-pointer text-blue-400 ease-in duration-300 shadow-md shadow-gray-500"
+                  />
+                </a>
+              </Link>
+              <Link legacyBehavior href="/">
+                <a
+                  href="mailto:nantechs@gmail.com"
+                  target="_blank "
+                  rel="noreferrer"
+                >
+                  <FaEnvelope
+                    aria-label="Send me email"
+                    role="link"
+                    className="relative bg-white rounded-full  w-6 h-6 sm:h-8 sm:w-8 p-1 hover:scale-110 hover:text-white hover:bg-red-600 cursor-pointer text-red-500 ease-in duration-300 shadow-md shadow-gray-500"
+                  />
+                </a>
+              </Link>
+
+              <Link
+                legacyBehavior
+                href="https://www.facebook.com/nantechsolution"
+              >
+                <a target="_blank">
+                  <FaFacebook
+                    aria-label="Visit Facebook account"
+                    role="link"
+                    className="relative bg-white rounded-full  w-6 h-6 sm:h-8 sm:w-8 p-1 hover:scale-110 hover:text-white hover:bg-blue-500 cursor-pointer text-blue-400 ease-in duration-300 shadow-md shadow-gray-500"
+                  />
+                </a>
+              </Link>
+              <Link legacyBehavior href="https://instagram.com">
+                <a target="_blank">
+                  <FaInstagram
+                    aria-label="Visit LinkedIn account"
+                    role="link"
+                    className="relative bg-white rounded-full  w-6 h-6 sm:h-8 sm:w-8 p-1 hover:scale-110 hover:text-white hover:bg-red-600 cursor-pointer text-red-500 ease-in duration-300 shadow-md shadow-gray-500"
+                  />
+                </a>
+              </Link>
+            </div>
           </div>
         </aside>
       </div>
