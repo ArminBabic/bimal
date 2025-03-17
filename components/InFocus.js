@@ -16,10 +16,28 @@ const InFocus = () => {
       className="w-full flex justify-center  pt-12 xs:pt-12 pb-4 xl:pb-16 "
     >
       <section className="w-full max-w-[1250px]">
-        <header className="my-8 px-2 xs:px-6 sm:px-16 xl:px-6 2xl:px-16 flex flex-col items-center ">
-          <h3 className=" text-2xl sm:text-4xl font-semibold  text-headings text-center">
-            In Focus
-          </h3>
+        <header className="w-full flex flex-col lg:flex-row lg:justify-between items-center lg:items-end lg:mb-8  px-2 xs:px-6 sm:px-16 lg:px-4  ">
+          <div className="my-4 lg:my-0 flex flex-col items-center lg:items-start ">
+            <h3 className=" uppercase text-[12px] font-semibold sm:text-base text-secondary py-2 px-2 max-w-[24rem] ">
+              in focus
+            </h3>
+            <p className=" text-2xl sm:text-4xl font-semibold  text-headings text-center">
+              Latest news and tips
+            </p>
+          </div>
+          <div className="w-[16rem]   hidden lg:block ">
+            <Link href="/infocus">
+              <button
+                aria-label="infocus"
+                className="w-[16rem]  text-[14px]   py-3  px-2 xs:px-4 relative   rounded-xl group overflow-hidden font-bold border-2 border-secondary bg-[#f5f5f5] text-secondary inline-block"
+              >
+                <span className="absolute bottom-0 left-0 flex w-full h-0 transition-all duration-200 ease-out transform translate-y-0 bg-secondary   group-hover:h-full "></span>
+                <span className="relative group-hover:text-white">
+                  Read More
+                </span>
+              </button>
+            </Link>
+          </div>
         </header>
 
         <div className="main">

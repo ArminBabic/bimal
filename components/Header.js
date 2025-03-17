@@ -158,11 +158,11 @@ function Header() {
               </Link>
             </li> */}
 
-            <li className={!scrollNav ? "abc text-white" : "ab"}>
+            {/*  <li className={!scrollNav ? "abc text-white" : "ab"}>
               <Link legacyBehavior href="/">
                 <a onClick={(e) => scrollTo(e, "contact")}>Contact </a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
 
@@ -175,7 +175,7 @@ function Header() {
                 : "text-secondary hover:bg-secondary rounded-[30px] border-2 py-3 px-12 border-secondary hover:text-white ease-in duration-300"
             }
           >
-            Get Started
+            Contact Us
           </button>
         </div>
 
