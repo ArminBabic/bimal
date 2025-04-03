@@ -31,10 +31,7 @@ const AboutUs = () => {
               At Project Pro, we are dedicated to establishing long-term trust
               in the Balkan market by offering the most extensive portfolio of
               high-value investments, ranging from renewable energy projects to
-              real estate developments and strategic acquisitions. We specialize
-              in connecting international investors with premium opportunities
-              across the region, providing seamless end-to-end support
-              throughout the investment process.
+              real estate developments and strategic acquisitions.You can find us Maršala Tita 28, 71000 Sarajevo BiH,Intera Tehnološki park, Bišće Polje bb 88000 Mostar BiH, Trg mladih 7d, Brčko distrikt BiH.
             </h4>
           </header>
           <Link href="/about">

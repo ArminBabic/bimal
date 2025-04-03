@@ -166,7 +166,7 @@ const Contact = () => {
                       <HiLocationMarker className="text-secondary w-7 h-7 mb-1 relative" />
                       <div className="flex flex-col ">
                         <p className="font-semibold text-lg">Address</p>
-                        <p className="text-sm   italic ">Trg Mladih ,Brcko</p>
+                        <p className="text-sm   italic ">Trg mladih 7d ,Brcko</p>
                       </div>
                     </div>
                     <div className=" text-sm  flex  w-full   px-1 justify-start gap-3">
@@ -174,7 +174,7 @@ const Contact = () => {
                       <div className="flex flex-col ">
                         <p className="font-semibold text-lg">Email</p>
                         <p className="text-sm   italic ">
-                          info@projectprosee.com
+                          info@investinbalkan.com
                         </p>
                       </div>
                     </div>
@@ -182,7 +182,7 @@ const Contact = () => {
                       <RiPhoneFill className="text-secondary w-6 h-6 relative" />
                       <div className="flex flex-col ">
                         <p className="font-semibold text-lg">Phone</p>
-                        <p className="text-sm   italic "> +387 61 917 739</p>
+                        <p className="text-sm   italic "> 049/206-182</p>
                       </div>
                     </div>
                   </div>
