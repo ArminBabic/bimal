@@ -117,6 +117,7 @@ const Contact = () => {
     
     e.preventDefault();
     if (formValidty) {
+     
       setButtonText("Sending...");
       emailjs
         .sendForm(
@@ -155,7 +156,7 @@ const Contact = () => {
 const query = router.query;
 const queryslug=query.slug
 
-console.log(queryslug)
+
 
 
 
@@ -252,12 +253,13 @@ console.log(queryslug)
                         <textarea
                           placeholder="Enter your message..."
                           name="message"
-                          value={queryslug + message}
+                          value={message}
                           onChange={(e) => {
                             setMessage(e.target.value);
                           }}
                           className="ring-1 ring-gray-300 pb-16 w-full rounded-md px-4 py-2 mt-2 outline-none focus:ring-2 focus:ring-secondary"
                         ></textarea>
+                       <input type="hidden" name="internal_tag" value={queryslug} />
                       </div>
                       <button
                         type="submit"
