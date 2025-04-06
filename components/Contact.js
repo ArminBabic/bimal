@@ -65,7 +65,7 @@ const Contact = () => {
 export default Contact;
  */
 
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useContext } from "react";
 import Link from "next/link";
 import { HiLocationMarker } from "react-icons/hi";
 import { FaEnvelope } from "react-icons/fa";
@@ -73,6 +73,12 @@ import { GiRotaryPhone, GiPaperPlane } from "react-icons/gi";
 import { AiOutlineMail, AiFillGithub } from "react-icons/ai";
 import { RiLinkedinFill, RiSendPlaneFill, RiPhoneFill } from "react-icons/ri";
 import { FaFacebook } from "react-icons/fa";
+import { useRouter } from 'next/router';
+
+
+
+
+
 
 import emailjs from "@emailjs/browser";
 
@@ -108,12 +114,13 @@ const Contact = () => {
     fullname.length > 0 && email.includes("@") && message.length > 0;
 
   const sendEmail = (e) => {
+    
     e.preventDefault();
     if (formValidty) {
       setButtonText("Sending...");
       emailjs
         .sendForm(
-          "service_tfpa5j1",
+          "service_45fgwdv",
           "template_460pemk",
           form.current,
           "1JJMrN8wOdT6wa--I"
@@ -139,6 +146,18 @@ const Contact = () => {
       notify();
     }
   };
+
+
+  const router = useRouter();
+
+
+// Query parameters 
+const query = router.query;
+const queryslug=query.slug
+
+console.log(queryslug)
+
+
 
   return (
     <div id="contact" className="flex flex-col items-center bg-white pt-8 ">
@@ -233,7 +252,7 @@ const Contact = () => {
                         <textarea
                           placeholder="Enter your message..."
                           name="message"
-                          value={message}
+                          value={queryslug + message}
                           onChange={(e) => {
                             setMessage(e.target.value);
                           }}
