@@ -11,7 +11,7 @@ const notifyNetwork = () => {
 };
 
 const notifySuccess = () => {
-  toast.success("Message was sent!");
+  toast.success("You are subscribed!");
 };
 
 const Subscribe = () => {
