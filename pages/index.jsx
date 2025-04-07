@@ -43,7 +43,7 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo2.png" />
         {/* share image */}
-        <meta property="og:url" content="https://www.nantechsolution.com/" />
+        <meta property="og:url" content="https://www.investinbalkan.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="ProProject" />
         <meta
@@ -56,11 +56,11 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:domain"
-          content="https://www.nantechsolution.com/"
+          content="https://www.investinbalkan.com/"
         />
         <meta
           property="twitter:url"
-          content="https://www.nantechsolution.com/"
+          content="https://www.investinbalkan.com/"
         />
         <meta name="twitter:title" content="ProProject" />
         <meta

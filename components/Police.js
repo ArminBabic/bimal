@@ -12,7 +12,13 @@ function Police() {
           <h3 className="font-bold text-2xl pb-4">Project Pro</h3>
 
           <div className="text-[#676a6a] flex flex-col gap-5 ">
-            <p>Trg Mladih, Brcko, Bosnia and Herzegovinia</p>
+            <p>
+              Maršala Tita 28, 71000 Sarajevo BiH,
+              <br />
+              Intera Tehnološki park, Bišće Polje bb 88000 Mostar BiH,
+              <br />
+              Trg mladih 7d, Brčko distrikt BiH.
+            </p>
             {/* <p>
               <span className="font-bold">phone:</span> +387 61 917 739
             </p>
@@ -51,15 +57,8 @@ function Police() {
             particular the EU data protection basic regulation (DSGVO), is:
           </p>
           <br />
-          <p className="text-[#676a6a]">nanTech Solution</p>
+          <strong className="text-[#676a6a]">Project Pro</strong>
           <br />
-
-          <div className="flex flex-col gap-4">
-            {" "}
-            <p className="text-[#676a6a]">
-              <span className="font-bold ">Managing Director:</span> Armin Babic
-            </p>
-          </div>
 
           <h3 className="font-bold text-2xl mt-6 mb-2">YOUR RIGHTS</h3>
           <div className="text-[#676a6a]">

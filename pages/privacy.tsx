@@ -7,20 +7,48 @@ import Police from "../components/Police";
 const Privacy = () => {
   return (
     <div className="w-full">
-      {/* <Head>
-        <title>nanTech Solution </title>
+      <Head>
+        <title>ProjectPro </title>
         <meta
           name="description"
-          content="Looking for top-notch web development services, design solutions, digital marketing, and testing? Look no further than Nantech! Our team of experts will work with you to build your online presence and create customized solutions tailored to your business needs."
+          content="Empowering Your Investments
+    Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the Future of Sustainable Development and Profitable Investments in the Western Balkan"
         />
         <meta
           name="keywords"
-          content="Web development Website design User experience (UX) User interface (UI) Mobile optimization E-commerce Content management systems (CMS) Custom solutions SEO SEM PPC advertising Social media marketing Email marketing Conversion rate optimization (CRO) A/B testing Quality assurance (QA) Testing and debugging"
+          content="Empowering Your Investments
+    Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the Future of Sustainable Development and Profitable Investments in the Western Balkan"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/n.webp" />
+        <link rel="icon" href="/logo2.png" />
+        {/* share image */}
+        <meta property="og:url" content="https://www.investinbalkan.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="ProProject" />
+        <meta
+          property="og:description"
+          content="Empowering Your Investments
+    Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the Future of Sustainable Development and Profitable Investments in the Western Balkan"
+        />
+        <meta property="og:image" content="/social.jpg" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:domain"
+          content="https://www.investinbalkan.com/"
+        />
+        <meta
+          property="twitter:url"
+          content="https://www.investinbalkan.com/"
+        />
+        <meta name="twitter:title" content="ProProject" />
+        <meta
+          name="twitter:description"
+          content="Empowering Your Investments
+    Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the Future of Sustainable Development and Profitable Investments in the Western Balkan"
+        />
+        <meta name="twitter:image" content="/social.jpg" />
       </Head>
- */}
       <div className="w-full">
         <PrivacyHeader />
 
