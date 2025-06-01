@@ -97,7 +97,7 @@ Energy, Acquisitions, and Real Estate Projects Tailored for Success.Explore the 
                   </div>
                 </div>
               </Link>
-            ))}
+            )).reverse()}
           </ul>
         </main>
       </div>

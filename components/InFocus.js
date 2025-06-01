@@ -9,7 +9,9 @@ import Link from "next/link";
 
 import data2 from "../data/infocus.json";
 
+
 const InFocus = () => {
+
   return (
     <div
       id="infocus"
@@ -71,7 +73,7 @@ const InFocus = () => {
                   </div>
                 </div>
               </Link>
-            ))}
+            )).reverse().slice(0,3)}
           </ul>
         </div>
       </section>
