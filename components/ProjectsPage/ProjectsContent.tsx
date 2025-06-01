@@ -52,30 +52,57 @@ const ProjectsContent = ({ projects }: any) => {
           <p className="pb-6">{projects.attributes.contentE}</p>
           <p className="pb-6">{projects.attributes.contentF}</p>
           <section className="flex flex-col w-full">
-            <article className="flex items-center gap-3  mb-6 italic rounded">
+              <article
+              className={
+                projects.attributes.content1
+                  ? "flex  items-center gap-3  mb-6 italic rounded"
+                  : "hidden"
+              }
+            >
               <div>
                 <FaCheck className="w-6 h-5 text-secondary" />
               </div>
               <p> {projects.attributes.content1} </p>
             </article>
-            <article className="flex items-center gap-3  mb-6 italic rounded">
+         
+              <article
+              className={
+                projects.attributes.content2
+                  ? "flex  items-center gap-3  mb-6 italic rounded"
+                  : "hidden"
+              }
+            >
               <div>
                 <FaCheck className="w-6 h-5 text-secondary" />
               </div>
               <p> {projects.attributes.content2} </p>
             </article>
-            <article className="flex items-center gap-3  mb-6 italic rounded">
+           
+                  <article
+              className={
+                projects.attributes.content3
+                  ? "flex  items-center gap-3  mb-6 italic rounded"
+                  : "hidden"
+              }
+            >
               <div>
                 <FaCheck className="w-6 h-5 text-secondary" />
               </div>
               <p> {projects.attributes.content3} </p>
             </article>
-            <article className="flex items-center gap-3  mb-6 italic rounded">
+                   <article
+              className={
+                projects.attributes.content4
+                  ? "flex  items-center gap-3  mb-6 italic rounded"
+                  : "hidden"
+              }
+            >
               <div>
                 <FaCheck className="w-6 h-5 text-secondary" />
               </div>
               <p> {projects.attributes.content4} </p>
             </article>
+            
             <article
               className={
                 projects.attributes.content5
@@ -111,6 +138,18 @@ const ProjectsContent = ({ projects }: any) => {
                 <FaCheck className="w-6 h-5 text-secondary" />
               </div>
               <p> {projects.attributes.content7} </p>
+            </article>
+            <article
+              className={
+                projects.attributes.content8
+                  ? "flex  items-center gap-3  mb-6 italic rounded"
+                  : "hidden"
+              }
+            >
+              <div>
+                <FaCheck className="w-6 h-5 text-secondary" />
+              </div>
+              <p> {projects.attributes.content8} </p>
             </article>
           </section>
 
