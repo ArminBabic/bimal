@@ -299,6 +299,37 @@
         "content3": "3)Electro-energy consent. ",
         "content4": "4)Construction permit."
       }
+    },
+    {
+      "id": "solar-plant-i",
+      "category": "res",
+      "attributes": {
+        "mainImage": "/assets/projectimages/1.webp",
+        "titleA": "Solar Plant",
+        "capacityA": "Capacity of 140 MW (AC)",
+        "locationA": "Bosnia and Herzegovina",
+        "priceA": "Price will be discussed.",
+        "title": "SOLAR POWER PLANT – CAPACITY OF 140 MW (AC)",
+        "image": "/assets/projectimages/1.webp",
+        "category": "Green Energy",
+        "author": "Armin Babic",
+        "subtitle": "Bosnia and Herzegovina",
+        "authorImage": "",
+        "contentA": "The project(s) are planned for an output capacity of 140 MW AC. The estimated annual production is about 247 GWh. Property-legal relations are resolved across the entire area – a concession has been obtained on land owned by public-legal entities and is listed in the land registry. Property-legal relations for the access road have been resolved. ",
+        "contentB": "Price is subject to negotiation. (sale in ready-to-build phase)",
+        "contentC": "The seller intends to sell the entire project.",
+        "firstImage": "/assets/projectimages/1.webp",
+        "contentD": "",
+        "contentE": "Status of permits: ",
+        "contentG": " ",
+        "content1": "1)Preliminary consent – for connection to the transmission network",
+        "content2": " 2)Environmental permit",
+        "content3": "3)Location permit",
+        "content4": "4)Concession",
+        "content5": " 5)Connection requirements",
+        "content6": " 6)Energy permit.",
+        "content7": "7)Construction permit in the process of being obtained"
+      }
     }
   ]
 }
